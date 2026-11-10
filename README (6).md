@@ -1,4 +1,3 @@
-<div align="center">
 
 ```
      __    __    __
@@ -19,7 +18,6 @@ shareable IOC feeds (CSV, JSON, plain blocklists and **STIX 2.1** for TAXII).
 ![Dependencies](https://img.shields.io/badge/dependencies-none-brightgreen)
 ![Offline](https://img.shields.io/badge/runs-fully%20offline-orange)
 
-</div>
 
 ---
 
