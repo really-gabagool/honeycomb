@@ -1,0 +1,47 @@
+# HONEYCOMB research-scanner ranges
+#
+# IPs in these ranges are tagged "research-scanner" and held back from the shareable exports
+# (they still show in your local dashboard). Loaded automatically from next to honeycomb.py;
+# add more lists with --scanners FILE, or "scanners": [...] in sensors.json. Disable with
+# --no-scanner-list, or export them anyway with --keep-research-scanners.
+#
+# Format: one IP or CIDR per line; anything after # is a comment.
+#
+# Scanners that announce themselves in their ASN name (Censys, ONYPHE, Shadowserver's own AS,
+# Driftnet, Modat...) are already recognised when you pass --geoip, so this file is for the ones
+# that scan from cloud or transit space registered under someone else's name.
+#
+# Only ranges published by the scanner itself or documented by a scanner-intelligence source are
+# listed here. These lists go stale - for a much larger, maintained list see
+# https://github.com/OpenFilters/internet-scanners (CIDR format works with --scanners as-is).
+
+# Palo Alto Networks Cortex Xpanse - published by Palo Alto:
+# https://cortex-docs.paloaltonetworks.com/cortex-xpanse/reference/scanning-activity
+147.185.132.0/23
+162.216.149.0/24
+162.216.150.0/24
+172.105.147.0/24
+198.235.24.0/24
+205.210.31.0/24
+216.25.88.0/21
+35.203.210.0/23
+144.86.173.0/24
+2604:a940:300:5b6::/64
+2604:a940:301:225::/64
+2604:a940:302:118::/64
+
+# Shodan - dedicated blocks listed by Netify: https://www.netify.ai/resources/applications/shodan
+# (Shodan also scans from other CariNet space, e.g. *.census.shodan.io in 71.6.128.0/17)
+71.6.146.128/26
+185.142.236.32/28
+185.165.190.0/26
+198.20.69.64/26
+207.90.244.0/24
+
+# Shadowserver - scanning from Hurricane Electric space, listed by Netify:
+# https://www.netify.ai/resources/crawlers/shadowserver-bot
+64.62.156.0/24
+65.49.1.0/24
+74.82.47.0/26
+2001:470:1:fb5::/64
+2001:470:2cc:1::/64

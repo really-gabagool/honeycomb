@@ -1,0 +1,23 @@
+{
+  "sensors": {
+    "ssh-us": {
+      "label": "Cowrie US",
+      "public_name": "sensor-us"
+    },
+    "ssh-in": {
+      "label": "Cowrie India",
+      "public_name": "sensor-in"
+    },
+    "ics-us": {
+      "label": "Conpot ICS",
+      "type": "conpot"
+    },
+    "med-us": {
+      "label": "MedPot HL7",
+      "type": "medpot"
+    }
+  },
+  "exclude": [
+    "192.0.2.0/24"
+  ]
+}

